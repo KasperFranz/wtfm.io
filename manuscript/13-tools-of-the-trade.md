@@ -1,4 +1,4 @@
-# PART 4 TOOLS OF THE TRADE
+# Tools of the Trade
 
 <!--
 

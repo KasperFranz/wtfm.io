@@ -1,4 +1,4 @@
-# PART 3 MAKE DOCUMENTATION GREAT AGAIN
+# Make Documentation Great Again
 
 <!--
 

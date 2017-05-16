@@ -1,4 +1,4 @@
-# PART 2 WRITING NOT-BAD DOCUMENTATION
+# Writing Not-Bad Documentation
 
 <!--
 

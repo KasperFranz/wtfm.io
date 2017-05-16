@@ -1,4 +1,4 @@
-# PART 1 WHAT DOCUMENTATION IS (AND WHAT IT IS NOT)
+# What Documentation Is (and What It Is Not)
 
 <!--
 
