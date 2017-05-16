@@ -1,0 +1,10 @@
+body {
+  margin: 40px 0 10px 0;
+}
+
+h6 {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  letter-spacing: .2rem;
+  font-weight: 600;
+}
