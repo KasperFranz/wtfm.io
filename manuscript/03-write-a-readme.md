@@ -14,6 +14,19 @@ Common README template:
 - Testing
 - Licensing
 
+NOTES:
+
+- https://github.com/noffle/art-of-readme
+- https://github.com/RichardLitt/standard-readme
+- https://changelog.com/posts/top-ten-reasons-why-i-wont-use-your-open-source-project
+- http://tom.preston-werner.com/2010/08/23/readme-driven-development.html
+- https://robots.thoughtbot.com/how-to-write-a-great-readme
+- https://jfhbrook.github.io/2011/11/09/readmes.html
+- https://medium.com/@NSomar/readme-md-history-and-components-a365aff07f10
+- http://catb.org/~esr/jargon/html/R/README-file.html
+- https://stackoverflow.com/questions/2304863/how-to-write-a-good-readme
+
+
 -->
 
 Raise your hand if you've ever read a README file. Now, keep that hand raised if you've ever _written_ a README file. I'm going to take a shot in the dark and assume that your hand is still raised; at least, it's raised in spirit, since you probably refuse to flail your arms about like a crazy person just because a book tells you to.
@@ -271,145 +284,153 @@ Formatting a README file using a markup language like Markdown is beneficial, bu
 
 #### Badges
 
+If you've ever read a README file in a GitHub repository, you've no doubt seen your fair share of badges. Badges are graphical tags that are often included in GitHub README files as a way of conveying basic information about a project. These little tags usually come in the form of a key-value pair, rendered as a primarily dichromatic image.
+
 [![](assets/02/badge-build-passing.svg)]() [![](assets/02/badge-coverage.svg)]() [![](assets/02/badge-downloads.svg)]() [![](assets/02/badge-license-mit.svg)]()
 
-If you've ever read a README file in a GitHub repository, you've no doubt seen your fair share of badges. Badges are graphical tags that are often included in GitHub README files as a way of conveying basic information about a project. These little tags usually come in the form of a key-value pair, rendered as a primarily dichromatic image. While badges can technically contain any number of useful statistics, the most common use for them is to provide information about the health and popularity of a project. Code coverage, build status, license, current version, number of downloads... badges can be used to convey a lot of information in a very little space, and often indicate a higher level of professionalism and support behind a project.
+While badges can technically contain any number of useful statistics, the most common use for them is to provide information about the health and popularity of a project. Code coverage, build status, license, current version, number of downloads... badges can be used to convey a lot of information in a very little space, and often indicate a higher level of professionalism and support behind a project.
 
 #### Screenshots & Animations
+
+Not every software project is text-based in nature. There are countless of graphical libraries that are better demonstrated using screenshots and animations in addition to standard text-based documentation. While it's probably best not to litter a README file with needless screenshots, including a relevant screenshot or animation at the top of a project's README can go a long way towards quickly and easily demonstrating its power.
 
 [![](assets/02/the-fuck-screenshot.png)]()
 _Example: The Fuck (https://github.com/nvbn/thefuck)_
 
-
+Keep in mind that, just because a project isn't graphical in nature, doesn't mean that its documentation can't benefit from a README file. Many command-line utilities can be more effectively demonstrated using a real-world screenshot than copying and pasting the output of the application.
 
 #### Code Highlighting
 
+Software development tools have improved a lot since the days of white text on blue screens. One of the many improvements that have been made to code editors in the last 40 years is code highlighting, a process that color codes characters within source code to help developers scan and identify code more efficiently. Code highlighting is so ubiquitous that you'd be hard pressed to find a developer who _doesn't_ use it, so why then should our README files be any different?
 
+While most markup languages offer some form of code highlighting, highlighting code snippets in Markdown is about as straightforward as it comes. By tagging them with the name of the programming language, Markdown code blocks can be turned from this:
+
+```
+class Hello
+   def self.world
+      puts "Hello, world!"
+   end
+end
+```
+
+Into this:
+
+```ruby
+class Hello
+   def self.world
+      puts "Hello, world!"
+   end
+end
+```
+
+Obviously, code highlighting won't improve the _content_ of a README file, but what it will do is make it easier for consumers to parse code snippets contained within it. This helps reduce strain, and contextualizes code in a way that readers can immediately understand.
 
 #### Emojis
 
+The true beauty of GitHub's markup renderer isn't the number of languages it supports; it's the post-processing that it performs. While the majority of the actions GitHub's render takes to process a markup file are designed to reduce load times :clock3: and increase security :lock:, one particular feature that is getting increasing use is the emoji parser, and let's face it... emojis are here to stay. They're so damn popular that, as I write this, there is a _movie_ :movie_camera: about Emojis playing in the theater down the street. The problem with emojis, however, is that outside of a smartphone :iphone: they are a huge pain in the ass to type unless you are using an application that natively support emoji shortcuts.
 
+With GitHub flavored markup, adding emojis to a README is nearly as simple as adding an emoji to a Tweet — or whatever the kids are using these days :rocket:. Whenever GitHub's markup renderer encounters something that looks like `:emojiname:`, it attempts to look up the indicated emoji and, if found, renders it instead of the tag :zap:. This allows you to add relevant (and hopefully appropriate) emojis within a README file in plain text, without having to muck around on Emojipedia :book:.
 
-### Keep It Simple, Stupid
+#### Keep It Simple, Stupid
 
-- Case Study: [HTTPie](https://github.com/jakubroztocil/httpie) (> 6000 words)
+There's a fine line between _a lot of_ information, and _way too much_ information. While there's no rule dictating just how much information is too much in a README file, it's important to remember our "README = summary" analogy from the literary metaphor above. The size and complexity of a project will strongly dictate the length of a README file, just like the size and complexity of a book will determine how detailed the summary is, but if you're not careful you can move from writing a summary into writing CliffsNotes without even realizing it.
+
+A good example of a README-gone-astray is the README file for HTTPie<sup>[4](#sources)</sup>, a popular command line tool for making HTTP requests. HTTPie's README file clocks in at just over 6000 words — which is about 2000 words more than this entire chapter. With a little bit of digging, you can see that HTTPie's README file is just a one-page version of their official documentation, with some standard badges added. While having separate documentation for a project this size is an excellent idea, duplicating it into the README file can make it more difficult for users to find the information they need, and lessens the impact of the information that actually _belongs_ in the README. In later chapters, we will discuss when and how to create and manage external documentation to address this exact problem.
 
 ## Conclusion
 
-### Questions
+Write a README, because you can sure as hell expect your users to actually _READ IT_. Outlining how to get started with a new project is an important onboarding step for new users, and a great refresher course for returning users. The README is the perfect place to communicate — at minimum — the basic information required to use a new library or framework, and while not every project warrants dedicated documentation, they should all have a thoughtful, usable README.
 
-### Exercise
+### Questions & Exercises
 
-Despite the ubiquity of the README file, it's not widely known exactly _when_ it became a standard. There have been some attempts to discover the very _first_ README, but due to the scarcity of open source code prior to the UNIX epoch, patient zero remains a mystery. Now, that doesn't mean that there are _no_ prehistoric README files to be found. In fact, with a little digging you can find dozens of them going as far back as 1974, the earliest of which comes from the PDP-10<sup>[3](#sources)</sup>, a 36-bit timesharing machine released in 1966.
+1. Do you remember the last _great_ README file you read? What did you like about it? What didn't you like?
+2. How much effort do you put into trying to use a package or framework that has a bad or underwhelming README?
+3. Consider the last README file you actually wrote. Did you put the same care into it as the author of the README file from the first question? Is it accurate and understandable? What could you have done better?
+4. The following README is one of the earliest ever found. Written in 1974 for the PDP-10<sup>[5](#sources)</sup>, a 36-bit timesharing machine released in 1966, it follows some of the same principles we still follow today, but falls flat on some others. Using the information covered in this chapter, rewrite this README in a way that is better suited to modern application development.
 
-> [README.TXT is the DOC file for SPICE/SINC/SLIC]
->
-> This failsafe tape contains the circuit analysis programs:
->
-> SPICE SINC and SLIC
->
-> described in the Applications Software Bulletin Volume 4.
->
-> requirements:
->
-> SPICE requires FORTRAN-10 version 4 because of  its  use  of
-> Right adjusted Holerith data.  Executes in about 47K.
->
-> SINC and SLIC should work with F40 and F10v1A but  have  not
-> been  tested with anything but F10 version 4.  SLIC requires
-> about 50K of core to execute.
->
-> FORTRAN-10 version 4 should be able to compile all three  in
-> less than 50K user core.
->
-> Note:  at one time there was a  hacked  up  version  of  F10
-> version  1  which  was  able  to compile SPICE.  It was only
-> guarenteed to compile the version of SPICE on this tape  and
-> had  many  severe  bugs.   With  this distribution I will no
-> longer make any attempt  to  distribute  that  compiler  nor
-> answer any questions on it.  -ADG
->
-> Performance:
->
-> Of the three programs, SPICE is generaly  reguarded  as  the
-> most  useful.   The  optimized version is roughly 1K smaller
-> and about 20% faster than the non-optimized version.
->
-> SLIC and SINC are about 10% faster when optimized.
->
-> Under 6.01 SPICE has  the  following  paging  profile  while
-> running the test data:
->
-> phys page limit                 cpu seconds
->
-> 94 p                             16.2
-> 85 p                             22
-> 80 p - 45 p                      25
-> 40 p                            127
-> 10 p                            over 6 min.
->
-> I/O units
->
-> SPICE reads via 'DIALOG', writes SPCOUT.DAT
->
-> SINC reads 1 , writes 6
->
-> SLIC reads 5 , writes 6 and 2
->
-> This failsafe tape contains files named after  the  programs
-> with extensions:
->
-> FOR - the source program
-> IN   - a test problem
-> OUT - sample output
-> SAV - the 1070 optimized core image
->
-> it also includes this file, the FOROTS to go with the  SAVes
-> and the source for SECOND.MAC, the timing routine.  SPICE is
-> broken into three parts:  1SPICE.FOR, 2 and 3.
->
-> There  is  a  printed  document  to  describe  each  of  the
-> programs.   These  are  included  in  the DECUS packet.  The
-> documentation and programs were origionally developed by the
-> E.E.   department  of  the Univ.  of Calif.  at Berkley on a
-> CDC 6400.  Except to convert the FORTRAN to the DECsystem-10
-> no  changes  have  been  made to the programs.  For the test
-> data SLIC and  SINC  have  shown  a  slight  variation  with
-> respect to the 6400, SPICE shows no variation.
->
-> Good luck!              Ashley Grayson 27-NOV-74
->
-> [end of README.TXT]
-
-## Further Reading
-
-- https://github.com/noffle/art-of-readme
-- https://github.com/RichardLitt/standard-readme
-- https://changelog.com/posts/top-ten-reasons-why-i-wont-use-your-open-source-project
-- http://tom.preston-werner.com/2010/08/23/readme-driven-development.html
-- https://robots.thoughtbot.com/how-to-write-a-great-readme
-- https://jfhbrook.github.io/2011/11/09/readmes.html
-- https://medium.com/@NSomar/readme-md-history-and-components-a365aff07f10
-- http://catb.org/~esr/jargon/html/R/README-file.html
-- https://stackoverflow.com/questions/2304863/how-to-write-a-good-readme
+  > [README.TXT is the DOC file for SPICE/SINC/SLIC]
+  >
+  > This failsafe tape contains the circuit analysis programs:
+  >
+  > SPICE SINC and SLIC
+  >
+  > described in the Applications Software Bulletin Volume 4.
+  >
+  > requirements:
+  >
+  > SPICE requires FORTRAN-10 version 4 because of  its  use  of
+  > Right adjusted Holerith data.  Executes in about 47K.
+  >
+  > SINC and SLIC should work with F40 and F10v1A but  have  not
+  > been  tested with anything but F10 version 4.  SLIC requires
+  > about 50K of core to execute.
+  >
+  > FORTRAN-10 version 4 should be able to compile all three  in
+  > less than 50K user core.
+  >
+  > Note:  at one time there was a  hacked  up  version  of  F10
+  > version  1  which  was  able  to compile SPICE.  It was only
+  > guarenteed to compile the version of SPICE on this tape  and
+  > had  many  severe  bugs.   With  this distribution I will no
+  > longer make any attempt  to  distribute  that  compiler  nor
+  > answer any questions on it.  -ADG
+  >
+  > Performance:
+  >
+  > Of the three programs, SPICE is generaly  reguarded  as  the
+  > most  useful.   The  optimized version is roughly 1K smaller
+  > and about 20% faster than the non-optimized version.
+  >
+  > SLIC and SINC are about 10% faster when optimized.
+  >
+  > Under 6.01 SPICE has  the  following  paging  profile  while
+  > running the test data:
+  >
+  > phys page limit                 cpu seconds
+  >
+  > 94 p                             16.2
+  > 85 p                             22
+  > 80 p - 45 p                      25
+  > 40 p                            127
+  > 10 p                            over 6 min.
+  >
+  > I/O units
+  >
+  > SPICE reads via 'DIALOG', writes SPCOUT.DAT
+  >
+  > SINC reads 1 , writes 6
+  >
+  > SLIC reads 5 , writes 6 and 2
+  >
+  > This failsafe tape contains files named after  the  programs
+  > with extensions:
+  >
+  > FOR - the source program
+  > IN   - a test problem
+  > OUT - sample output
+  > SAV - the 1070 optimized core image
+  >
+  > it also includes this file, the FOROTS to go with the  SAVes
+  > and the source for SECOND.MAC, the timing routine.  SPICE is
+  > broken into three parts:  1SPICE.FOR, 2 and 3.
+  >
+  > There  is  a  printed  document  to  describe  each  of  the
+  > programs.   These  are  included  in  the DECUS packet.  The
+  > documentation and programs were origionally developed by the
+  > E.E.   department  of  the Univ.  of Calif.  at Berkley on a
+  > CDC 6400.  Except to convert the FORTRAN to the DECsystem-10
+  > no  changes  have  been  made to the programs.  For the test
+  > data SLIC and  SINC  have  shown  a  slight  variation  with
+  > respect to the 6400, SPICE shows no variation.
+  >
+  > Good luck!              Ashley Grayson 27-NOV-74
+  >
+  > [end of README.TXT]
 
 ## Sources
 
 1. Stallman, Richard. "The GNU Coding Standards." GNU Coding Standards. July 25, 2016. Accessed March 30, 2017. https://www.gnu.org/prep/standards/standards.html#index-README-file
 2. Chris Wanstrath. "Markdown'd, Textile'd Readmes." GitHub. March 10, 2008. July 15, 2017. https://github.com/blog/19-markdown-d-textile-d-readmes
 3. John Gruber. "Markdown." Daring Fireball. December 17, 2004. July 24, 2017. https://daringfireball.net/projects/markdown/
+4. "HTTPie: a CLI, cURL-like tool for humans." GitHub. July 19, 2017. Accessed August 4, 2017. https://github.com/jakubroztocil/httpie
 4. "Origin of 'Readme'." Software Engineering Stack Exchange. September 6, 2011. Accessed August 6, 2017. https://softwareengineering.stackexchange.com/questions/96966/origin-of-readme/106090#106090
-
-<!--
-
-The GNU Coding Standards:
-
-> The distribution should contain a file named README with a general overview of the package:
-> - the name of the package;
-> - the version number of the package, or refer to where in the package the version can be found;
-> - a general description of what the package does;
-> - a reference to the file INSTALL, which should in turn contain an explanation of the installation procedure;
-> - a brief explanation of any unusual top-level directories or files, or other hints for readers to find their way around the source;
-> - a reference to the file which contains the copying conditions. The GNU GPL, if used, should be in a file called COPYING. If the GNU LGPL is used, it should be in a file called COPYING.LESSER.
-
- -->
