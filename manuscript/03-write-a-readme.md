@@ -295,6 +295,7 @@ While badges can technically contain any number of useful statistics, the most c
 Not every software project is text-based in nature. There are countless of graphical libraries that are better demonstrated using screenshots and animations in addition to standard text-based documentation. While it's probably best not to litter a README file with needless screenshots, including a relevant screenshot or animation at the top of a project's README can go a long way towards quickly and easily demonstrating its power.
 
 [![](assets/02/the-fuck-screenshot.png)]()
+
 _Example: The Fuck (https://github.com/nvbn/thefuck)_
 
 Keep in mind that, just because a project isn't graphical in nature, doesn't mean that its documentation can't benefit from a README file. Many command-line utilities can be more effectively demonstrated using a real-world screenshot than copying and pasting the output of the application.
