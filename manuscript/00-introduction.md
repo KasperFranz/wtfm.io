@@ -1,6 +1,6 @@
 # Introduction
 
-<!--
+&lt;!--
 
 “Good Code Is Subjective, Documentation Is Not”
 
@@ -10,15 +10,15 @@ This section will dispel the “code as documentation” myth, and make a busine
 
 Specific points to be addressed:
 
-- Clear and understandable documentation reduces developer onboarding time, which in turn builds a more informed, more productive organization
-- Documentation is a professional courtesy for the next developer who has to work with your code
-- Documentation prevents “knowledge silos” - a situation where specific areas of a codebase are only maintained and understood by one engineer
+* Clear and understandable documentation reduces developer onboarding time, which in turn builds a more informed, more productive organization
+* Documentation is a professional courtesy for the next developer who has to work with your code
+* Documentation prevents “knowledge silos” - a situation where specific areas of a codebase are only maintained and understood by one engineer
 
-As an aside, this is a great anecdote about how poor documentation can have dire consequences - https://www.reddit.com/r/talesfromtechsupport/comments/5u2yra/the_time_i_killed_an_entire_company/
+As an aside, this is a great anecdote about how poor documentation can have dire consequences - [https://www.reddit.com/r/talesfromtechsupport/comments/5u2yra/the\_time\_i\_killed\_an\_entire\_company/](https://www.reddit.com/r/talesfromtechsupport/comments/5u2yra/the_time_i_killed_an_entire_company/)
 
 TODO: get permission to quote ^
 
--->
+--&gt;
 
 Good code is subjective. Documentation is not.
 
@@ -28,22 +28,22 @@ Let's face it, writing technical documentation is like going to the dentist; you
 
 The topics covered in this book range from the benefits of documentation all the way to writing and publishing it:
 
-- Establishing clear business cases for establishing and maintaining accurate and clean documentation.
-- Identifying the consequences of _not_ having up-to-date documentation.
-- Providing case studies to illustrate "good" and "bad" documentation.
-- Practical techniques for weaving documentation directly into your product development lifecycle.
+* Establishing clear business cases for establishing and maintaining accurate and clean documentation.
+* Identifying the consequences of _not_ having up-to-date documentation.
+* Providing case studies to illustrate "good" and "bad" documentation.
+* Practical techniques for weaving documentation directly into your product development lifecycle.
 
 ## Who This Book Is For
 
-This book is for managers, professionals, and engineers who understand the importance of documentation, but don’t have the knowledge &mdash; or resources &mdash; needed to effectively work it into an existing product development lifecycle.
+This book is for managers, professionals, and engineers who understand the importance of documentation, but don’t have the knowledge — or resources — needed to effectively work it into an existing product development lifecycle.
 
-Much like unit testing, writing high-quality documentation takes time, but has a difficult-to-measure return on investment. _Write the F!@#$%^ Manual_ provides the tools and techniques necessary to write and manage quality technical documentation for any size project, within any size organization.
+Much like unit testing, writing high-quality documentation takes time, but has a difficult-to-measure return on investment. _Write the F!@\#$%^ Manual_ provides the tools and techniques necessary to write and manage quality technical documentation for any size project, within any size organization.
 
 ## Basic Structure
 
 The chapters of this book are organized into four parts:
 
-### What Documentation Is (and What It Is Not)
+### What Documentation Is \(and What It Is Not\)
 
 ### Writing Not-Bad Documentation
 
@@ -58,3 +58,6 @@ Additionally, each chapter will include the following subsections:
 ### Further Reading
 
 ### TL;DR
+
+
+
