@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* [Chapter 1: What Documentation Is](what-documentation-is.md)
+* [Part I: What Documentation Is](what-documentation-is.md)
 
