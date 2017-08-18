@@ -1,34 +1,5 @@
 # Write a README
 
-<!--
-
-A requirement under the GNU Coding Standards, a project’s README file should explain (at the very least) the minimum information necessary to utilize a software package. Thanks to the popularity of code hosting communities like GitHub, GitLab, and Bitbucket, the README file has a significant amount of visibility and power within most open source projects.
-
-Common README template:
-
-- Installation
-- Configuration
-- Requirements
-- Examples
-- Contributing
-- Testing
-- Licensing
-
-NOTES:
-
-- https://github.com/noffle/art-of-readme
-- https://github.com/RichardLitt/standard-readme
-- https://changelog.com/posts/top-ten-reasons-why-i-wont-use-your-open-source-project
-- http://tom.preston-werner.com/2010/08/23/readme-driven-development.html
-- https://robots.thoughtbot.com/how-to-write-a-great-readme
-- https://jfhbrook.github.io/2011/11/09/readmes.html
-- https://medium.com/@NSomar/readme-md-history-and-components-a365aff07f10
-- http://catb.org/~esr/jargon/html/R/README-file.html
-- https://stackoverflow.com/questions/2304863/how-to-write-a-good-readme
-
-
--->
-
 Raise your hand if you've ever read a README file. Now, keep that hand raised if you've ever _written_ a README file. I'm going to take a shot in the dark and assume that your hand is still raised; at least, it's raised in spirit, since you probably refuse to flail your arms about like a crazy person just because a book tells you to.
 
 After code comments, the README file is one of the most ubiquitous forms of documentation found in software development today. While not _every_ source code repository has a README, it's a good bet that every _successful_ one does. That's because the README file, as the name compels, is often the first thing a developer reads when working with a new library. Going back to our literature metaphor, if code comments are the gloss, then the README file is the summary; if you can't concisely explain the who, what, where, when, and why of your codebase, then the reader is likely to pick a competitor that can.
