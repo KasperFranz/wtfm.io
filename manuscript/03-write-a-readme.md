@@ -18,7 +18,7 @@ Perhaps the most obvious component that nearly every README file should contain 
 >
 > Faker is heavily inspired by Perl's [Data::Faker](http://search.cpan.org/~jasonk/Data-Faker-0.07/), and by ruby's [Faker](https://rubygems.org/gems/faker).
 
-_Example: Faker (https://github.com/fzaninotto/Faker)_
+_Example: Faker \(_[https://github.com/fzaninotto/Faker](https://github.com/fzaninotto/Faker)_\)_
 
 ### Requirements
 
@@ -26,9 +26,9 @@ If the project description is the most obvious component of a README file, then 
 
 > #### Requirements
 >
-> PHP 5.3.2 or above (at least 5.3.4 recommended to avoid potential bugs)
+> PHP 5.3.2 or above \(at least 5.3.4 recommended to avoid potential bugs\)
 
-_Example: Composer (https://github.com/composer/composer)_
+_Example: Composer \(_[https://github.com/composer/composer](https://github.com/composer/composer)_\)_
 
 ### Installation
 
@@ -48,7 +48,7 @@ Whether a project is a library, framework, product, or even a programming langua
 > npm install -g typescript@next
 > ```
 
-_Example: TypeScript (https://github.com/Microsoft/TypeScript)_
+_Example: TypeScript \(_[https://github.com/Microsoft/TypeScript](https://github.com/Microsoft/TypeScript)_\)_
 
 ### Examples
 
@@ -71,7 +71,7 @@ Often combined with the installation steps as a "Getting Started" section, examp
 >
 > To learn more about the API Blueprint syntax jump directly to the [API Blueprint Tutorial](https://github.com/apiaryio/api-blueprint/blob/master/Tutorial.md) or take a look at some [examples](https://github.com/apiaryio/api-blueprint/tree/master/examples).
 
-_Example: API Blueprint (https://github.com/apiaryio/api-blueprint)_
+_Example: API Blueprint \(_[https://github.com/apiaryio/api-blueprint](https://github.com/apiaryio/api-blueprint)_\)_
 
 ### Configuration
 
@@ -115,7 +115,7 @@ Beyond the initial "Getting Started" steps, many projects require some basic con
 > end
 > ```
 
-_Example: CarrierWave (https://github.com/carrierwaveuploader/carrierwave)_
+_Example: CarrierWave \(_[https://github.com/carrierwaveuploader/carrierwave](https://github.com/carrierwaveuploader/carrierwave)_\)_
 
 ### Contributing
 
@@ -125,11 +125,11 @@ Open source projects are often a team effort, but what makes them unique is that
 >
 > Please read through our [contributing guidelines](https://github.com/twbs/bootstrap/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 >
-> Moreover, if your pull request contains JavaScript patches or features, you must include [relevant unit tests](https://github.com/twbs/bootstrap/tree/master/js/tests). All HTML and > CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Mark Otto](https://github.com/mdo).
+> Moreover, if your pull request contains JavaScript patches or features, you must include [relevant unit tests](https://github.com/twbs/bootstrap/tree/master/js/tests). All HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Mark Otto](https://github.com/mdo).
 >
-> Editor preferences are available in the [editor config](https://github.com/twbs/bootstrap/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at http://editorconfig.org.
+> Editor preferences are available in the [editor config](https://github.com/twbs/bootstrap/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at [http://editorconfig.org](http://editorconfig.org).
 
-_Example: Bootstrap (https://github.com/twbs/bootstrap)_
+_Example: Bootstrap \(_[https://github.com/twbs/bootstrap](https://github.com/twbs/bootstrap)_\)_
 
 ### Testing
 
@@ -151,12 +151,12 @@ In the same vein as contribution guidelines, testing steps are often included in
 >
 > Run the unit tests with a local server that supports PHP. Ensure that you run the site from the root directory, not the "test" directory. No database is required. Pre-configured php local servers are available for Windows and Mac. Here are some options:
 >
-> - Windows: [WAMP download](http://www.wampserver.com/en/)
-> - Mac: [MAMP download](https://www.mamp.info/en/downloads/)
-> - Linux: [Setting up LAMP](https://www.linux.com/learn/tutorials/288158-easy-lamp-server-installation)
-> - [Mongoose (most platforms)](https://code.google.com/p/mongoose/)
+> * Windows: [WAMP download](http://www.wampserver.com/en/)
+> * Mac: [MAMP download](https://www.mamp.info/en/downloads/)
+> * Linux: [Setting up LAMP](https://www.linux.com/learn/tutorials/288158-easy-lamp-server-installation)
+> * [Mongoose \(most platforms\)](https://code.google.com/p/mongoose/)
 
-_Example: jQuery (https://github.com/jquery/jquery)_
+_Example: jQuery \(_[https://github.com/jquery/jquery](https://github.com/jquery/jquery)_\)_
 
 ### Licensing
 
@@ -166,7 +166,7 @@ Every project is released under some sort of license. While MIT is one of the mo
 >
 > Ruby on Rails is released under the [MIT License](http://www.opensource.org/licenses/MIT).
 
-_Example: Ruby on Rails (https://github.com/rails/rails)_
+_Example: Ruby on Rails \(_[https://github.com/rails/rails](https://github.com/rails/rails)_\)_
 
 ### Further Reading
 
@@ -180,7 +180,7 @@ There is no hard and fast rule about what can and can't go into a README file, b
 >
 > If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
 
-_Example: Laravel (https://github.com/laravel/laravel)_
+_Example: Laravel \(_[https://github.com/laravel/laravel](https://github.com/laravel/laravel)_\)_
 
 ## The GitHub Effect
 
@@ -192,9 +192,9 @@ The design and readability of a README now have just as much of an effect on the
 
 We've come a long way since `README.txt`.
 
-While the README file's purpose hasn't changed much in the past four decades, its standard format has undergone a dramatic transition over the last ten years thanks in large part to GitHub's decision to render README files according to their file extension[^2]. Originally launched in 2008 with `.markdown`, `.textile`, and `.rdoc` support, GitHub's README rendering has come a long way since then, adding another six markups and countless post-processing features like emoji suppport, caching, and more. While GitHub's markup renderer supports a number of different languages, the most popular one — and my personal favorite — is Markdown.
+While the README file's purpose hasn't changed much in the past four decades, its standard format has undergone a dramatic transition over the last ten years thanks in large part to GitHub's decision to render README files according to their file extension[^2]. Originally launched in 2008 with `.markdown`, `.textile`, and `.rdoc` support, GitHub's README rendering has come a long way since then, adding another six markups and countless post-processing features like emoji support, caching, and more. While GitHub's markup renderer supports a number of different languages, the most popular one — and my personal favorite — is Markdown.
 
-To quote the official Markdown documentation, "Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML)."[^3] To provide an example, let's take a look at how Markdown can take a totally made up snippet of plain-text documentation, and give it some flair:
+To quote the official Markdown documentation, "Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML \(or HTML\)."[^3] To provide an example, let's take a look at how Markdown can take a totally made up snippet of plain-text documentation, and give it some flair:
 
 > POSSOMSAUCE
 >
@@ -205,7 +205,6 @@ To quote the official Markdown documentation, "Markdown is a text-to-HTML conver
 > To install Possomsauce, run the following command from your terminal:
 >
 > emerge -atv possomsauce
->
 
 _Example: Plain-text README File_
 
@@ -222,7 +221,7 @@ This library randomly disables network access to various nodes within a [Kuberne
 
 To install Possomsauce, run the following command from your terminal:
 
-emerge -atv possomsauce
+    emerge -atv possomsauce
 ```
 
 _Example: Markdown README File_
@@ -267,7 +266,7 @@ Not every software project is text-based in nature. There are countless of graph
 
 ![](/manuscript/assets/02/the-fuck-screenshot.png)
 
-_Example: The Fuck (https://github.com/nvbn/thefuck)_
+_Example: The Fuck \(_[https://github.com/nvbn/thefuck](https://github.com/nvbn/thefuck)_\)_
 
 Keep in mind that, just because a project isn't graphical in nature, doesn't mean that its documentation can't benefit from a README file. Many command-line utilities can be more effectively demonstrated using a real-world screenshot than copying and pasting the output of the application.
 
@@ -299,9 +298,9 @@ Obviously, code highlighting won't improve the _content_ of a README file, but w
 
 #### Emojis
 
-The true beauty of GitHub's markup renderer isn't the number of languages it supports; it's the post-processing that it performs. While the majority of the actions GitHub's render takes to process a markup file are designed to reduce load times :clock3: and increase security :lock:, one particular feature that is getting increasing use is the emoji parser, and let's face it... emojis are here to stay. They're so damn popular that, as I write this, there is a _movie_ :movie_camera: about Emojis playing in the theater down the street. The problem with emojis, however, is that outside of a smartphone :iphone: they are a huge pain in the ass to type unless you are using an application that natively support emoji shortcuts.
+The true beauty of GitHub's markup renderer isn't the number of languages it supports; it's the post-processing that it performs. While the majority of the actions GitHub's render takes to process a markup file are designed to reduce load times :clock3: and increase security :lock:, one particular feature that is getting increasing use is the emoji parser, and let's face it... emojis are here to stay. They're so damn popular that, as I write this, there is a _movie_ :movie\_camera: about Emojis playing in the theater down the street. The problem with emojis, however, is that outside of a smartphone :iphone: they are a huge pain in the ass to type unless you are using an application that natively support emoji shortcuts.
 
-With GitHub flavored markup, adding emojis to a README is nearly as simple as adding an emoji to a Tweet — or whatever the kids are using these days :rocket:. Whenever GitHub's markup renderer encounters something that looks like `:emojiname:`, it attempts to look up the indicated emoji and, if found, renders it instead of the tag :zap:. This allows you to add relevant (and hopefully appropriate) emojis within a README file in plain text, without having to muck around on Emojipedia :book:.
+With GitHub flavored markup, adding emojis to a README is nearly as simple as adding an emoji to a Tweet — or whatever the kids are using these days :rocket:. Whenever GitHub's markup renderer encounters something that looks like `:emojiname:`, it attempts to look up the indicated emoji and, if found, renders it instead of the tag :zap:. This allows you to add relevant \(and hopefully appropriate\) emojis within a README file in plain text, without having to muck around on Emojipedia :book:.
 
 #### Keep It Simple, Stupid
 
@@ -320,7 +319,7 @@ Write a README, because you can sure as hell expect your users to actually _READ
 3. Consider the last README file you actually wrote. Did you put the same care into it as the author of the README file from the first question? Is it accurate and understandable? What could you have done better?
 4. The following README is one of the earliest ever found. Written in 1974 for the PDP-10[^5], a 36-bit timesharing machine released in 1966, it follows some of the same principles we still follow today, but falls flat on some others. Using the information covered in this chapter, rewrite this README in a way that is better suited to modern application development.
 
-> [README.TXT is the DOC file for SPICE/SINC/SLIC]
+> \[README.TXT is the DOC file for SPICE/SINC/SLIC\]
 >
 > This failsafe tape contains the circuit analysis programs:
 >
@@ -330,40 +329,40 @@ Write a README, because you can sure as hell expect your users to actually _READ
 >
 > requirements:
 >
-> SPICE requires FORTRAN-10 version 4 because of its use of
+> SPICE requires FORTRAN-10 version 4 because of its use of  
 > Right adjusted Holerith data. Executes in about 47K.
 >
-> SINC and SLIC should work with F40 and F10v1A but have not
-> been tested with anything but F10 version 4. SLIC requires
+> SINC and SLIC should work with F40 and F10v1A but have not  
+> been tested with anything but F10 version 4. SLIC requires  
 > about 50K of core to execute.
 >
-> FORTRAN-10 version 4 should be able to compile all three in
+> FORTRAN-10 version 4 should be able to compile all three in  
 > less than 50K user core.
 >
-> Note: at one time there was a hacked up version of F10
-> version 1 which was able to compile SPICE. It was only
-> guarenteed to compile the version of SPICE on this tape and
-> had many severe bugs. With this distribution I will no
-> longer make any attempt to distribute that compiler nor
+> Note: at one time there was a hacked up version of F10  
+> version 1 which was able to compile SPICE. It was only  
+> guarenteed to compile the version of SPICE on this tape and  
+> had many severe bugs. With this distribution I will no  
+> longer make any attempt to distribute that compiler nor  
 > answer any questions on it. -ADG
 >
 > Performance:
 >
-> Of the three programs, SPICE is generaly reguarded as the
-> most useful. The optimized version is roughly 1K smaller
+> Of the three programs, SPICE is generaly reguarded as the  
+> most useful. The optimized version is roughly 1K smaller  
 > and about 20% faster than the non-optimized version.
 >
 > SLIC and SINC are about 10% faster when optimized.
 >
-> Under 6.01 SPICE has the following paging profile while
+> Under 6.01 SPICE has the following paging profile while  
 > running the test data:
 >
 > phys page limit cpu seconds
 >
-> 94 p 16.2
-> 85 p 22
-> 80 p - 45 p 25
-> 40 p 127
+> 94 p 16.2  
+> 85 p 22  
+> 80 p - 45 p 25  
+> 40 p 127  
 > 10 p over 6 min.
 >
 > I/O units
@@ -374,38 +373,40 @@ Write a README, because you can sure as hell expect your users to actually _READ
 >
 > SLIC reads 5 , writes 6 and 2
 >
-> This failsafe tape contains files named after the programs
+> This failsafe tape contains files named after the programs  
 > with extensions:
 >
-> FOR - the source program
-> IN - a test problem
-> OUT - sample output
+> FOR - the source program  
+> IN - a test problem  
+> OUT - sample output  
 > SAV - the 1070 optimized core image
 >
-> it also includes this file, the FOROTS to go with the SAVes
-> and the source for SECOND.MAC, the timing routine. SPICE is
+> it also includes this file, the FOROTS to go with the SAVes  
+> and the source for SECOND.MAC, the timing routine. SPICE is  
 > broken into three parts: 1SPICE.FOR, 2 and 3.
 >
-> There is a printed document to describe each of the
-> programs. These are included in the DECUS packet. The
-> documentation and programs were origionally developed by the
-> E.E. department of the Univ. of Calif. at Berkley on a
-> CDC 6400. Except to convert the FORTRAN to the DECsystem-10
-> no changes have been made to the programs. For the test
-> data SLIC and SINC have shown a slight variation with
+> There is a printed document to describe each of the  
+> programs. These are included in the DECUS packet. The  
+> documentation and programs were origionally developed by the  
+> E.E. department of the Univ. of Calif. at Berkley on a  
+> CDC 6400. Except to convert the FORTRAN to the DECsystem-10  
+> no changes have been made to the programs. For the test  
+> data SLIC and SINC have shown a slight variation with  
 > respect to the 6400, SPICE shows no variation.
 >
 > Good luck! Ashley Grayson 27-NOV-74
 >
-> [end of README.TXT]
+> \[end of README.TXT\]
 
 
-[^1]: Stallman, Richard. "The GNU Coding Standards." GNU Coding Standards. July 25, 2016. Accessed March 30, 2017. https://www.gnu.org/prep/standards/standards.html#index-README-file
 
-[^2]: Chris Wanstrath. "Markdown'd, Textile'd Readmes." GitHub. March 10, 2008. July 15, 2017. https://github.com/blog/19-markdown-d-textile-d-readmes
+[^1]: Stallman, Richard. "The GNU Coding Standards." GNU Coding Standards. July 25, 2016. Accessed March 30, 2017. [https://www.gnu.org/prep/standards/standards.html\#index-README-file](https://www.gnu.org/prep/standards/standards.html#index-README-file)
 
-[^3] John Gruber. "Markdown." Daring Fireball. December 17, 2004. July 24, 2017. https://daringfireball.net/projects/markdown/
+[^2]: Chris Wanstrath. "Markdown'd, Textile'd Readmes." GitHub. March 10, 2008. July 15, 2017. [https://github.com/blog/19-markdown-d-textile-d-readmes](https://github.com/blog/19-markdown-d-textile-d-readmes)
 
-[^4] "HTTPie: a CLI, cURL-like tool for humans." GitHub. July 19, 2017. Accessed August 4, 2017. https://github.com/jakubroztocil/httpie
+[^3]: John Gruber. "Markdown." Daring Fireball. December 17, 2004. July 24, 2017. [https://daringfireball.net/projects/markdown/](https://daringfireball.net/projects/markdown/)
 
-[^5] "Origin of 'Readme'." Software Engineering Stack Exchange. September 6, 2011. Accessed August 6, 2017. https://softwareengineering.stackexchange.com/questions/96966/origin-of-readme/106090#106090
+[^4]: "HTTPie: a CLI, cURL-like tool for humans." GitHub. July 19, 2017. Accessed August 4, 2017. [https://github.com/jakubroztocil/httpie](https://github.com/jakubroztocil/httpie)
+
+[^5]: "Origin of 'Readme'." Software Engineering Stack Exchange. September 6, 2011. Accessed August 6, 2017. [https://softwareengineering.stackexchange.com/questions/96966/origin-of-readme/106090](https://softwareengineering.stackexchange.com/questions/96966/origin-of-readme/106090)
+
