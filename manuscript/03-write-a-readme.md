@@ -398,8 +398,6 @@ Write a README, because you can sure as hell expect your users to actually _READ
 >
 > \[end of README.TXT\]
 
-
-
 [^1]: Stallman, Richard. "The GNU Coding Standards." GNU Coding Standards. July 25, 2016. Accessed March 30, 2017. [https://www.gnu.org/prep/standards/standards.html\#index-README-file](https://www.gnu.org/prep/standards/standards.html#index-README-file)
 
 [^2]: Chris Wanstrath. "Markdown'd, Textile'd Readmes." GitHub. March 10, 2008. July 15, 2017. [https://github.com/blog/19-markdown-d-textile-d-readmes](https://github.com/blog/19-markdown-d-textile-d-readmes)
