@@ -298,9 +298,9 @@ Obviously, code highlighting won't improve the _content_ of a README file, but w
 
 #### Emojis
 
-The true beauty of GitHub's markup renderer isn't the number of languages it supports; it's the post-processing that it performs. While the majority of the actions GitHub's render takes to process a markup file are designed to reduce load times :clock3: and increase security :lock:, one particular feature that is getting increasing use is the emoji parser, and let's face it... emojis are here to stay. They're so damn popular that, as I write this, there is a _movie_ :movie\_camera: about Emojis playing in the theater down the street. The problem with emojis, however, is that outside of a smartphone :iphone: they are a huge pain in the ass to type unless you are using an application that natively support emoji shortcuts.
+The true beauty of GitHub's markup renderer isn't the number of languages it supports; it's the post-processing that it performs. While the majority of the actions GitHub's render takes to process a markup file are designed to reduce load times ⏰ and increase security 🔒, one particular feature that is getting increasing use is the emoji parser, and let's face it... emojis are here to stay. They're so damn popular that, as I write this, there is a _movie_ 📹 about Emojis playing in the theater down the street. The problem with emojis, however, is that outside of a smartphone 📱 they are a huge pain in the ass to type unless you are using an application that natively support emoji shortcuts.
 
-With GitHub flavored markup, adding emojis to a README is nearly as simple as adding an emoji to a Tweet — or whatever the kids are using these days :rocket:. Whenever GitHub's markup renderer encounters something that looks like `:emojiname:`, it attempts to look up the indicated emoji and, if found, renders it instead of the tag :zap:. This allows you to add relevant \(and hopefully appropriate\) emojis within a README file in plain text, without having to muck around on Emojipedia :book:.
+With GitHub flavored markup, adding emojis to a README is nearly as simple as adding an emoji to a Tweet — or whatever the kids are using these days 🚀. Whenever GitHub's markup renderer encounters something that looks like `:emojiname:`, it attempts to look up the indicated emoji and, if found, renders it instead of the tag ⚡. This allows you to add relevant \(and hopefully appropriate\) emojis within a README file in plain text, without having to muck around on Emojipedia 📖.
 
 #### Keep It Simple, Stupid
 
@@ -397,8 +397,6 @@ Write a README, because you can sure as hell expect your users to actually _READ
 > Good luck! Ashley Grayson 27-NOV-74
 >
 > \[end of README.TXT\]
-
-
 
 [^1]: Stallman, Richard. "The GNU Coding Standards." GNU Coding Standards. July 25, 2016. Accessed March 30, 2017. [https://www.gnu.org/prep/standards/standards.html\#index-README-file](https://www.gnu.org/prep/standards/standards.html#index-README-file)
 
