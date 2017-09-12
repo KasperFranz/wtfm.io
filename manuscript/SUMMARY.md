@@ -5,6 +5,7 @@
   * [Always Be Commenting](02-always-be-commenting.md)
   * [Write a README](03-write-a-readme.md)
   * [When In Doubt, Branch Out](04-when-in-doubt-branch-out.md)
+  * [Log That Change](log-that-change.md)
 * [Part II: Writing Not-Bad Documentation](05-writing-not-bad-documentation.md)
   * [Keep It Simple, Stupid](06-keep-it-simple-stupid.md)
   * [Quality Over Quantity](/07-quality-over-quantity.md)
@@ -17,6 +18,4 @@
   * [API Documentation Specifications](/14-api-documentation-specifications.md)
   * [Generators](/15-generators.md)
   * [Design and Hosting](/16-design-and-hosting.md)
-
-
 
