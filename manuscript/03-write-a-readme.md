@@ -1,12 +1,12 @@
 # Write a README
 
-Raise your hand if you've ever read a README file. Now, keep that hand raised if you've ever \_written\_ a README file. I'm going to take a shot in the dark and assume that your hand is still raised; at least, it's raised in spirit, since you probably refuse to flail your arms about like a crazy person just because a book tells you to.
+Raise your hand if you've ever read a README file. Now, keep that hand raised if you've ever _written_ a README file. I'm going to take a shot in the dark and assume that your hand is still raised; at least, it's raised in spirit, since you probably refuse to flail your arms about like a crazy person just because a book tells you to.
 
-After code comments, the README file is one of the most ubiquitous forms of documentation found in software development today. While not \_every\_ source code repository has a README, it's a good bet that every \_successful\_ one does. That's because the README file, as the name compels, is often the first thing a developer reads when working with a new library. Going back to our literature metaphor, if code comments are the gloss, then the README file is the summary; if you can't concisely explain the who, what, where, when, and why of your codebase, then the reader is likely to pick a competitor that can.
+After code comments, the README file is one of the most ubiquitous forms of documentation found in software development today. While not _every_ source code repository has a README, it's a good bet that every _successful_ one does. That's because the README file, as the name compels, is often the first thing a developer reads when working with a new library. Going back to our literature metaphor, if code comments are the gloss, then the README file is the summary; if you can't concisely explain the who, what, where, when, and why of your codebase, then the reader is likely to pick a competitor that can.
 
 ## Anatomy of a README file
 
-While the README file is the \_de facto\_ standard for relaying basic information about a software library, its actual format can vary wildly from project to project; the requirements and features of a package can strongly influence the content of a README file. The GNU Coding Standards, for example, explicitly requires a README file containing some basic information about what the package does and how it works[^1], however other standards — such as the Mozilla Coding Standards — have no such requirement. That said, many high quality README files share a number of the same sections and components with one another:
+While the README file is the _de facto_ standard for relaying basic information about a software library, its actual format can vary wildly from project to project; the requirements and features of a package can strongly influence the content of a README file. The GNU Coding Standards, for example, explicitly requires a README file containing some basic information about what the package does and how it works[^1], however other standards — such as the Mozilla Coding Standards — have no such requirement. That said, many high quality README files share a number of the same sections and components with one another:
 
 ### Description
 
@@ -18,7 +18,7 @@ Perhaps the most obvious component that nearly every README file should contain 
 >
 > Faker is heavily inspired by Perl's [Data::Faker](http://search.cpan.org/~jasonk/Data-Faker-0.07/), and by ruby's [Faker](https://rubygems.org/gems/faker).
 
-_Example: Faker \(https://github.com/fzaninotto/Faker\)_
+_Example: Faker \(_[https://github.com/fzaninotto/Faker\](https://github.com/fzaninotto/Faker\)_\)_
 
 ### Requirements
 
@@ -28,7 +28,7 @@ If the project description is the most obvious component of a README file, then 
 >
 > PHP 5.3.2 or above \(at least 5.3.4 recommended to avoid potential bugs\)
 
-_Example: Composer \(https://github.com/composer/composer\)_
+_Example: Composer \(_[https://github.com/composer/composer\](https://github.com/composer/composer\)_\)_
 
 ### Installation
 
@@ -48,7 +48,7 @@ Whether a project is a library, framework, product, or even a programming langua
 > npm install -g typescript@next
 > ```
 
-_Example: TypeScript \(https://github.com/Microsoft/TypeScript\)_
+_Example: TypeScript \(_[https://github.com/Microsoft/TypeScript\](https://github.com/Microsoft/TypeScript\)_\)_
 
 ### Examples
 
@@ -67,11 +67,11 @@ Often combined with the installation steps as a "Getting Started" section, examp
 >
 > in your favorite plain text editor.
 >
-> With this blueprint you can already get a \[mock\]\(http://docs.apibstart.apiary.io/\#reference/0/message/get?console=1\), \[documentation\]\(http://docs.apibstart.apiary.io/\) and \[test\]\(http://dredd.readthedocs.org/en/latest/\) for your API before you even start coding.
+> With this blueprint you can already get a \[mock\]\([http://docs.apibstart.apiary.io/\#reference/0/message/get?console=1\](http://docs.apibstart.apiary.io/#reference/0/message/get?console=1\)\), \[documentation\]\([http://docs.apibstart.apiary.io/\](http://docs.apibstart.apiary.io/\)\) and \[test\]\([http://dredd.readthedocs.org/en/latest/\](http://dredd.readthedocs.org/en/latest/\)\) for your API before you even start coding.
 >
-> To learn more about the API Blueprint syntax jump directly to the \[API Blueprint Tutorial\]\(https://github.com/apiaryio/api-blueprint/blob/master/Tutorial.md\) or take a look at some \[examples\]\(https://github.com/apiaryio/api-blueprint/tree/master/examples\).
+> To learn more about the API Blueprint syntax jump directly to the \[API Blueprint Tutorial\]\([https://github.com/apiaryio/api-blueprint/blob/master/Tutorial.md\](https://github.com/apiaryio/api-blueprint/blob/master/Tutorial.md\)\) or take a look at some \[examples\]\([https://github.com/apiaryio/api-blueprint/tree/master/examples\](https://github.com/apiaryio/api-blueprint/tree/master/examples\)\).
 
-_Example: API Blueprint \(https://github.com/apiaryio/api-blueprint\)_
+_Example: API Blueprint \(_[https://github.com/apiaryio/api-blueprint\](https://github.com/apiaryio/api-blueprint\)_\)_
 
 ### Configuration
 
@@ -115,99 +115,58 @@ Beyond the initial "Getting Started" steps, many projects require some basic con
 > end
 > ```
 
-_Example: CarrierWave \(https://github.com/carrierwaveuploader/carrierwave\)_
+_Example: CarrierWave \(_[https://github.com/carrierwaveuploader/carrierwave\](https://github.com/carrierwaveuploader/carrierwave\)_\)_
 
 ### Contributing
 
 Open source projects are often a team effort, but what makes them unique is that team consists of a group of disparate people who may have never met before. This type of community presents a challenge, as there are no managers or employees, and everyone's time is volunteered. To help wrangle the potential chaos, many projects include guidelines in their README about how to contribute positively to the project. From style guides to codes of conduct, outlining the rules of engagement are a great way to ensure that everyone is on the same page right out of the gate.
 
-&gt; \#\#\#\# Contributing
+> #### Contributing
+>
+> Please read through our [contributing guidelines](https://github.com/twbs/bootstrap/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+>
+> Moreover, if your pull request contains JavaScript patches or features, you must include [relevant unit tests](https://github.com/twbs/bootstrap/tree/master/js/tests). All HTML and &gt; CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Mark Otto](https://github.com/mdo).
+>
+> Editor preferences are available in the [editor config](https://github.com/twbs/bootstrap/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at [http://editorconfig.org](http://editorconfig.org).
 
-&gt;
-
-&gt; Please read through our \[contributing guidelines\]\(https://github.com/twbs/bootstrap/blob/master/CONTRIBUTING.md\). Included are directions for opening issues, coding standards, and notes on development.
-
-&gt;
-
-&gt; Moreover, if your pull request contains JavaScript patches or features, you must include \[relevant unit tests\]\(https://github.com/twbs/bootstrap/tree/master/js/tests\). All HTML and &gt; CSS should conform to the \[Code Guide\]\(https://github.com/mdo/code-guide\), maintained by \[Mark Otto\]\(https://github.com/mdo\).
-
-&gt;
-
-&gt; Editor preferences are available in the \[editor config\]\(https://github.com/twbs/bootstrap/blob/master/.editorconfig\) for easy use in common text editors. Read more and download plugins at http://editorconfig.org.
-
-\_Example: Bootstrap \(https://github.com/twbs/bootstrap\)\_
-
-
+_Example: Bootstrap \(_[_https://github.com/twbs/bootstrap_](https://github.com/twbs/bootstrap)_\)_
 
 ### Testing
 
 In the same vein as contribution guidelines, testing steps are often included in the README of popular open source projects in order to ensure that contributors know exactly how to test any potential code changes against the test suite. While unit testing is a widely adopted process, no two projects setup their test suite exactly the same way, which means that some handholding might be necessary to get new contributors off to the right start.
 
+> #### Running the Unit Tests
+>
+> Make sure you have the necessary dependencies:
+>
+> ```bash
+> npm install
+> ```
+>
+> Start `grunt watch`  or `npm start`  to auto-build jQuery as you work:
+>
+> ```bash
+> grunt watch
+> ```
+>
+> Run the unit tests with a local server that supports PHP. Ensure that you run the site from the root directory, not the "test" directory. No database is required. Pre-configured php local servers are available for Windows and Mac. Here are some options:
+>
+> * Windows: [WAMP download](http://www.wampserver.com/en/)
+> * Mac: [MAMP download](https://www.mamp.info/en/downloads/)
+> * Linux: [Setting up LAMP](https://www.linux.com/learn/tutorials/288158-easy-lamp-server-installation)
+> * [Mongoose \(most platforms\)](https://code.google.com/p/mongoose/)
 
-
-&gt; \#\#\#\# Running the Unit Tests
-
-&gt;
-
-&gt; Make sure you have the necessary dependencies:
-
-&gt;
-
-&gt; \`\`\`bash
-
-&gt; npm install
-
-&gt; \`\`\`
-
-&gt;
-
-&gt; Start \`grunt watch\` or \`npm start\` to auto-build jQuery as you work:
-
-&gt;
-
-&gt; \`\`\`bash
-
-&gt; grunt watch
-
-&gt; \`\`\`
-
-&gt;
-
-&gt; Run the unit tests with a local server that supports PHP. Ensure that you run the site from the root directory, not the "test" directory. No database is required. Pre-configured php local servers are available for Windows and Mac. Here are some options:
-
-&gt;
-
-&gt; - Windows: \[WAMP download\]\(http://www.wampserver.com/en/\)
-
-&gt; - Mac: \[MAMP download\]\(https://www.mamp.info/en/downloads/\)
-
-&gt; - Linux: \[Setting up LAMP\]\(https://www.linux.com/learn/tutorials/288158-easy-lamp-server-installation\)
-
-&gt; - \[Mongoose \(most platforms\)\]\(https://code.google.com/p/mongoose/\)
-
-
-
-\_Example: jQuery \(https://github.com/jquery/jquery\)\_
-
-
+_Example: jQuery \(_[_https://github.com/jquery/jquery_](https://github.com/jquery/jquery%29_)_\)_
 
 ### Licensing
 
 Every project is released under some sort of license. While MIT is one of the most common for newer projects, there are dozens of potential licenses to use, so it is important to clearly identify the one chosen for \_your\_ project. Can users make money off of it? Can they resell it? Are you liable for any issues that arise? The license defines exactly what users are allowed to do with your software, so it isn't a decision to take lightly.
 
+> #### License
+>
+> Ruby on Rails is released under the [MIT License](http://www.opensource.org/licenses/MIT).
 
-
-&gt; \#\#\#\# License
-
-&gt;
-
-&gt; Ruby on Rails is released under the \[MIT License\]\(http://www.opensource.org/licenses/MIT\).
-
-
-
-\_Example: Ruby on Rails \(https://github.com/rails/rails\)\_
-
-
+_Example: Ruby on Rails \(_[_https://github.com/rails/rails_](https://github.com/rails/rails%29_)_\)_
 
 ### Further Reading
 
@@ -215,23 +174,17 @@ While important, the README file isn't generally meant to be the end-all-be-all 
 
 There is no hard and fast rule about what can and can't go into a README file, but a good rule of thumb is to consider where and how you intend to communicate with your users. In the case of highly technical open sourced projects like programming languages, development tools, and libraries, the README file is the perfect place to give thanks, offer support, and guide users towards more appropriate destinations to address their needs.
 
-
-
 &gt; \#\#\#\# Learning Laravel
 
 &gt;
 
-&gt; Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The \[Laravel documentation\]\(https://laravel.com/docs\) is thorough, complete, and makes it a breeze to get started learning the framework.
+&gt; Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The \[Laravel documentation\]\([https://laravel.com/docs\](https://laravel.com/docs\)\) is thorough, complete, and makes it a breeze to get started learning the framework.
 
 &gt;
 
-&gt; If you're not in the mood to read, \[Laracasts\]\(https://laracasts.com\) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+&gt; If you're not in the mood to read, \[Laracasts\]\([https://laracasts.com\](https://laracasts.com\)\) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
 
-
-
-\_Example: Laravel \(https://github.com/laravel/laravel\)\_
-
-
+\_Example: Laravel \([https://github.com/laravel/laravel\)\_](https://github.com/laravel/laravel%29_)
 
 ## The GitHub Effect
 
@@ -245,45 +198,23 @@ We've come a long way since `README.txt`.
 
 While the README file's purpose hasn't changed much in the past four decades, its standard format has undergone a dramatic transition over the last ten years thanks in large part to GitHub's decision to render README files according to their file extension[^2]&lt;sup&gt;\[2\]\(\#sources\)&lt;/sup&gt;. Originally launched in 2008 with \`.markdown\`, \`.textile\`, and \`.rdoc\` support, GitHub's README rendering has come a long way since then, adding another six markups and countless post-processing features like emoji suppport, caching, and more. While GitHub's markup renderer supports a number of different languages, the most popular one — and my personal favorite — is Markdown.
 
-
-
 To quote the official Markdown documentation, "Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML \(or HTML\)." To provide an example, let's take a look at how Markdown can take a totally made up snippet of plain-text documentation, and give it some flair:
 
+> POSSOMSAUCE
+>
+> This library randomly disables network access to various nodes within a Kubernetes cluster in order to stress test load balancing and failover functionality.
+>
+> INSTALLATION
+>
+> To install Possomsauce, run the following command from your terminal:
+>
+> emerge -atv possomsauce
 
-
-&gt; POSSOMSAUCE
-
-&gt;
-
-&gt; This library randomly disables network access to various nodes within a Kubernetes cluster in order to stress test load balancing and failover functionality.
-
-&gt;
-
-&gt; INSTALLATION
-
-&gt;
-
-&gt; To install Possomsauce, run the following command from your terminal:
-
-&gt;
-
-&gt; emerge -atv possomsauce
-
-&gt;
-
-
-
-\_Example: Plain-text README File\_
-
-
+_Example: Plain-text README File_
 
 Plain text README files are boring.
 
-
-
 While the snippet above is good enough to get basic information from, the larger the README gets, the more difficult it can be to parse. This presents both a usability problem, as well as a marketing one. To address these issues, let's take a look at that same snippet, but with some Markdown added for flavor.
-
-
 
 ```markdown
 # POSSOMSAUCE
@@ -301,57 +232,29 @@ _Example: Markdown README File_
 
 At first glance, there isn't much of an obvious difference between the two snippets, short of some extra hashtags. But when run through a Markdown processer like GitHub's, the snippet above turns into something like this:
 
+> #### POSSOMSAUCE
+>
+> This library randomly disables network access to various nodes within a [Kubernetes](https://kubernetes.io/) cluster in order to stress test load balancing and failover functionality.
+>
+> ##### INSTALLATION
+>
+> To install Possomsauce, run the following command from your terminal:
+>
+> ```
+> emerge -atv possomsauce
+> ```
 
-
-&gt; \#\#\#\# POSSOMSAUCE
-
-&gt;
-
-&gt; This library randomly disables network access to various nodes within a \[Kubernetes\]\(https://kubernetes.io/\) cluster in order to stress test load balancing and failover functionality.
-
-&gt;
-
-&gt; \#\#\#\#\# INSTALLATION
-
-&gt;
-
-&gt; To install Possomsauce, run the following command from your terminal:
-
-&gt;
-
-&gt; \`\`\`
-
-&gt; emerge -atv possomsauce
-
-&gt; \`\`\`
-
-&gt;
-
-
-
-\_Example: Rendered Markdown README File\_
-
-
+_Example: Rendered Markdown README File_
 
 Better, right?
 
-
-
 The beauty of Markdown is that it is a relatively minimal markup language, and has an incredibly low learning curve, which means that you can add some impressive style to a plain-text file with little time and effort.
-
-
 
 Hell, I'm writing this in Markdown as we speak.
 
-
-
 ### Usability Matters
 
-
-
 Formatting a README file using a markup language like Markdown is beneficial, but it is only half the puzzle. The other half is taking usability into consideration. While UI/UX isn't often something we think of when working with code, it is always important to consider your end-users no matter \_what\_ you're building. In the case of README files on GitHub, considering how to convey information in a clean and easily-digestible way can go a long way towards satisfying readers.
-
-
 
 #### Badges
 
@@ -367,7 +270,7 @@ Not every software project is text-based in nature. There are countless of graph
 
 ![](/manuscript/assets/02/the-fuck-screenshot.png)
 
-_Example: The Fuck \(https://github.com/nvbn/thefuck\)_
+_Example: The Fuck \(_[https://github.com/nvbn/thefuck\](https://github.com/nvbn/thefuck\)_\)_
 
 Keep in mind that, just because a project isn't graphical in nature, doesn't mean that its documentation can't benefit from a README file. Many command-line utilities can be more effectively demonstrated using a real-world screenshot than copying and pasting the output of the application.
 
@@ -383,7 +286,6 @@ class Hello
     puts "Hello, world!"
   end
 end
-
 ```
 
 Into this:
@@ -423,8 +325,6 @@ Write a README, because you can sure as hell expect your users to actually \_REA
 3. Consider the last README file you actually wrote. Did you put the same care into it as the author of the README file from the first question? Is it accurate and understandable? What could you have done better?
 
 4. The following README is one of the earliest ever found. Written in 1974 for the PDP-10&lt;sup&gt;\[5\]\(\#sources\)&lt;/sup&gt;, a 36-bit timesharing machine released in 1966, it follows some of the same principles we still follow today, but falls flat on some others. Using the information covered in this chapter, rewrite this README in a way that is better suited to modern application development.
-
-
 
 &gt; \[README.TXT is the DOC file for SPICE/SINC/SLIC\]
 
@@ -582,15 +482,13 @@ Write a README, because you can sure as hell expect your users to actually \_REA
 
 &gt; \[end of README.TXT\]
 
+1. John Gruber. "Markdown." Daring Fireball. December 17, 2004. July 24, 2017. [https://daringfireball.net/projects/markdown/](https://daringfireball.net/projects/markdown/)
 
+2. "HTTPie: a CLI, cURL-like tool for humans." GitHub. July 19, 2017. Accessed August 4, 2017. [https://github.com/jakubroztocil/httpie](https://github.com/jakubroztocil/httpie)
 
-3. John Gruber. "Markdown." Daring Fireball. December 17, 2004. July 24, 2017. https://daringfireball.net/projects/markdown/
+3. "Origin of 'Readme'." Software Engineering Stack Exchange. September 6, 2011. Accessed August 6, 2017. [https://softwareengineering.stackexchange.com/questions/96966/origin-of-readme/106090\#106090](https://softwareengineering.stackexchange.com/questions/96966/origin-of-readme/106090#106090)
 
-4. "HTTPie: a CLI, cURL-like tool for humans." GitHub. July 19, 2017. Accessed August 4, 2017. https://github.com/jakubroztocil/httpie
+[^1]: Stallman, Richard. "The GNU Coding Standards." GNU Coding Standards. July 25, 2016. Accessed March 30, 2017. [https://www.gnu.org/prep/standards/standards.html\#index-README-file](https://www.gnu.org/prep/standards/standards.html#index-README-file)
 
-4. "Origin of 'Readme'." Software Engineering Stack Exchange. September 6, 2011. Accessed August 6, 2017. https://softwareengineering.stackexchange.com/questions/96966/origin-of-readme/106090\#106090
-
-[^1]: Stallman, Richard. "The GNU Coding Standards." GNU Coding Standards. July 25, 2016. Accessed March 30, 2017. https://www.gnu.org/prep/standards/standards.html\#index-README-file
-
-[^2]: Chris Wanstrath. "Markdown'd, Textile'd Readmes." GitHub. March 10, 2008. July 15, 2017. https://github.com/blog/19-markdown-d-textile-d-readmes
+[^2]: Chris Wanstrath. "Markdown'd, Textile'd Readmes." GitHub. March 10, 2008. July 15, 2017. [https://github.com/blog/19-markdown-d-textile-d-readmes](https://github.com/blog/19-markdown-d-textile-d-readmes)
 
