@@ -49,11 +49,11 @@ The chapters of this book are organized into four parts:
 
 Additionally, each chapter will include the following subsections:
 
-### Questions
+### TL;DR
 
 ### Further Reading
 
-### TL;DR
+### Questions & Exercises
 
 
 
