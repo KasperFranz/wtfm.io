@@ -61,7 +61,7 @@ In addition to the basic outline above, each individual chapter will include the
 
 ### TL;DR
 
-Too long; didn't read.
+> Too long; didn't read.
 
 If you're the type of reader that prefers to skim a book first, then this subsection is just for you. It will summarize the information contained within the larger chapter without all the examples, prose, and history.
 
