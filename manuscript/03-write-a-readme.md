@@ -18,7 +18,7 @@ Perhaps the most obvious component that nearly every README file should contain 
 >
 > Faker is heavily inspired by Perl's [Data::Faker](http://search.cpan.org/~jasonk/Data-Faker-0.07/), and by ruby's [Faker](https://rubygems.org/gems/faker).
 
-_Example: Faker \(_[_https://github.com/fzaninotto/Faker_](https://github.com/fzaninotto/Faker%29_%29_%29_\)_\)_
+_Example: Faker \(_[_https://github.com/fzaninotto/Faker_](https://github.com/fzaninotto/Faker)_\)_
 
 ### Requirements
 
@@ -28,7 +28,7 @@ If the project description is the most obvious component of a README file, then 
 >
 > PHP 5.3.2 or above \(at least 5.3.4 recommended to avoid potential bugs\)
 
-_Example: Composer \(_[_https://github.com/composer/composer_](https://github.com/composer/composer%29_%29_%29_\)_\)_
+_Example: Composer \(_[_https://github.com/composer/composer_](https://github.com/composer/composer)_\)_
 
 ### Installation
 
@@ -48,7 +48,7 @@ Whether a project is a library, framework, product, or even a programming langua
 > npm install -g typescript@next
 > ```
 
-_Example: TypeScript \(_[_https://github.com/Microsoft/TypeScript_](https://github.com/Microsoft/TypeScript%29_%29_\)_\)_
+_Example: TypeScript \(_[_https://github.com/Microsoft/TypeScript_](https://github.com/Microsoft/TypeScript)_\)_
 
 ### Examples
 
@@ -71,7 +71,7 @@ Often combined with the installation steps as a "Getting Started" section, examp
 >
 > To learn more about the API Blueprint syntax jump directly to the [API Blueprint Tutorial](https://github.com/apiaryio/api-blueprint/blob/master/Tutorial.md) or take a look at some [examples](https://github.com/apiaryio/api-blueprint/tree/master/examples).
 
-_Example: API Blueprint \(_[_https://github.com/apiaryio/api-blueprint_](https://github.com/apiaryio/api-blueprint%29_%29_%29_\)_\)_
+_Example: API Blueprint \(_[_https://github.com/apiaryio/api-blueprint_](https://github.com/apiaryio/api-blueprint)_\)_
 
 ### Configuration
 
@@ -115,7 +115,7 @@ Beyond the initial "Getting Started" steps, many projects require some basic con
 > end
 > ```
 
-_Example: CarrierWave \(_[_https://github.com/carrierwaveuploader/carrierwave_](https://github.com/carrierwaveuploader/carrierwave%29_%29_%29_\)_\)_
+_Example: CarrierWave \(_[_https://github.com/carrierwaveuploader/carrierwave_](https://github.com/carrierwaveuploader/carrierwave)_\)_
 
 ### Contributing
 
@@ -156,7 +156,7 @@ In the same vein as contribution guidelines, testing steps are often included in
 > * Linux: [Setting up LAMP](https://www.linux.com/learn/tutorials/288158-easy-lamp-server-installation)
 > * [Mongoose \(most platforms\)](https://code.google.com/p/mongoose/)
 
-_Example: jQuery \(_[_https://github.com/jquery/jquery_](https://github.com/jquery/jquery%29_)_\)_
+_Example: jQuery \(_[_https://github.com/jquery/jquery_](https://github.com/jquery/jquery)_\)_
 
 ### Licensing
 
@@ -166,7 +166,7 @@ Every project is released under some sort of license. While MIT is one of the mo
 >
 > Ruby on Rails is released under the [MIT License](http://www.opensource.org/licenses/MIT).
 
-_Example: Ruby on Rails \(_[_https://github.com/rails/rails_](https://github.com/rails/rails%29_)_\)_
+_Example: Ruby on Rails \(_[_https://github.com/rails/rails_](https://github.com/rails/rails)_\)_
 
 ### Further Reading
 
@@ -180,7 +180,7 @@ There is no hard and fast rule about what can and can't go into a README file, b
 >
 > If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
 
-_Example: Laravel \(_[_https://github.com/laravel/laravel_](https://github.com/laravel/laravel%29_)_\)_
+_Example: Laravel \(_[_https://github.com/laravel/laravel_](https://github.com/laravel/laravel)_\)_
 
 ## The GitHub Effect
 
@@ -266,7 +266,7 @@ Not every software project is text-based in nature. There are countless of graph
 
 ![](/manuscript/assets/02/the-fuck-screenshot.png)
 
-_Example: The Fuck \(_[_https://github.com/nvbn/thefuck_](https://github.com/nvbn/thefuck%29_%29_%29_\)\_
+_Example: The Fuck \(_[_https://github.com/nvbn/thefuck_](https://github.com/nvbn/thefuck)_\)_
 
 Keep in mind that, just because a project isn't graphical in nature, doesn't mean that its documentation can't benefit from a README file. Many command-line utilities can be more effectively demonstrated using a real-world screenshot than copying and pasting the output of the application.
 
