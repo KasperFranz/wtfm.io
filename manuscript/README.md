@@ -49,9 +49,15 @@ When I was in the 9th grade, I had an English teacher who taught me to always as
 
 ### Make Documentation Great Again
 
+Given the right approach, documentation can be so much more than just a brain dump of words and examples. This section covers different ways in which documentation can be incorporated into the product development lifecycle and how it can be used to improve the quality and reliability of the codebase.
+
 ### Tools of the Trade
 
-Additionally, each chapter will include the following subsections:
+While technical documentation is about educating stakeholders on the proper use of a feature set, there are a ton of tools that can make both writing and reading documentation easier. This section details tools \(and tool categories\) for automatically generating documentation, hosting well-designed and searchable documentation, and even touches upon the – surprisingly cool – world of API documentation languages.
+
+## Chapter Extras
+
+In addition to the basic outline above, each individual chapter will include the following subsections:
 
 ### TL;DR
 
