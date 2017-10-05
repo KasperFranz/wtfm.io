@@ -47,7 +47,7 @@ _Source: Ruby on Rails \(_[_https://github.com/rails/rails_](https://github.com/
 
 ## The What
 
-Generally speaking, documenting what a piece of code does is bad practice.
+Generally speaking, documenting what every line of code does is bad practice, but there are some cases when the most efficient or streamlined way to write a piece of code isn't always the most intuitive.
 
 ```php
 /**
@@ -84,6 +84,4 @@ If someone told you that they prefer not to write unit tests because they take e
 ### Point 3: Comment Redundancy
 
 Clear code is subjective. Comments are not.
-
-
 
