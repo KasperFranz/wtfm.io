@@ -41,6 +41,8 @@ The chapters of this book are organized into four parts:
 
 ### What Documentation Is \(and What It Is Not\)
 
+The overarching theme of this section will address what methods of technical documentation are available, and when to use them. These methods can be split into four main categories: code comments, an accompanying README file, dedicated documentation, and a change log. It is important to clarify here that, because each of these documentation methods serves a different purpose, many successful development projects take advantage of at least two of them \(if not all four\).
+
 ### Writing Not-Bad Documentation
 
 ### Make Documentation Great Again
