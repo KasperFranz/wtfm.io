@@ -2,11 +2,11 @@
 
 While there are countless tools that extract a significant amount of value from code comments \(see [Part IV: Tools of the Trade](//13-tools-of-the-trade.md)\), the primary purpose of code comments is to explain _how_ a particular piece of code works, _why_ it was written that way, and – in some cases – _what_ it does.
 
-## How Does This Work?
+## The How
 
-## Why Did You Do This?
+## The Why
 
-## What Does It Do?
+## The What
 
 ```php
 /**
