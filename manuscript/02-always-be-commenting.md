@@ -1,8 +1,12 @@
 # Always Be Commenting
 
-> While there are countless tools that add more value to code comments \(these will be addressed in the Tools of the Trade section later\), the main purpose of code comments is to explain _how_ a particular piece of code works, and _why_ it was written that way.
->
-> A common mistake many junior developers make is to document what a piece of code does. This, unfortunately, doesn’t add any value because in most cases, what the code is doing is pretty self-evident. On the flip side, just because you can identify what a piece of code is doing, that doesn’t mean how it works or why it was written that way is obvious.
+While there are countless tools that extract a significant amount of value from code comments \(see [Part IV: Tools of the Trade](//13-tools-of-the-trade.md)\), the primary purpose of code comments is to explain _how_ a particular piece of code works, _why_ it was written that way, and – in some cases – _what_ it does.
+
+## How Does This Work?
+
+## Why Did You Do This?
+
+## What Does It Do?
 
 ```php
 /**
@@ -18,7 +22,7 @@ public static function after($subject, $search)
 }
 ```
 
-_Example: Laravel \(_[_https://github.com/laravel/framework_](https://github.com/laravel/framework/)_\)_
+_Example: Laravel \(_[_https://github.com/laravel/framework_](https://github.com/laravel/framework)_\)_
 
 ## The Code Comment Controversy
 
