@@ -1,12 +1,53 @@
 # Always Be Commenting
 
+As developers, we like to think of code as a recipe. All the steps are written out, so understanding code is as simple as reading the steps, but that’s not the way code works. Programming is an art form, and programmers each have their own unique style and thought process, so it is important to remember that what is clear and intuitive to one may be disorganized and confusing to another.
+
 While there are countless tools that extract a significant amount of value from code comments \(see [Part IV: Tools of the Trade](//13-tools-of-the-trade.md)\), the primary purpose of code comments is to explain _how_ a particular piece of code works, _why_ it was written that way, and – in some cases – _what_ it does.
 
 ## The How
 
+There's a common misconception that explaining _how _piece of code works is the same as explain _what _a piece of code does. While they are similar in nature, the _how_ is a much more nuanced method of documentation.
+
+```go
+// Buffered returns a reader of the data remaining in the Decoder's
+// buffer. The reader is valid until the next call to Decode.
+func (dec *Decoder) Buffered() io.Reader {
+	return bytes.NewReader(dec.buf[dec.scanp:])
+}
+```
+
+_Source: Go \(_[_https://github.com/golang/go_](https://github.com/golang/go)_\)_
+
 ## The Why
 
+```ruby
+module ActiveRecord
+  # This module exists because ActiveRecord::AttributeMethods::Dirty needs to
+  # define callbacks, but continue to have its version of +save+ be the super
+  # method of ActiveRecord::Callbacks. This will be removed when the removal
+  # of deprecated code removes this need.
+  module DefineCallbacks
+    extend ActiveSupport::Concern
+
+    module ClassMethods # :nodoc:
+      include ActiveModel::Callbacks
+    end
+
+    included do
+      include ActiveModel::Validations::Callbacks
+
+      define_model_callbacks :initialize, :find, :touch, only: :after
+      define_model_callbacks :save, :create, :update, :destroy
+    end
+  end
+end
+```
+
+_Source: Ruby on Rails \(_[_https://github.com/rails/rails_](https://github.com/rails/rails)_\)_
+
 ## The What
+
+Generally speaking, documenting what a piece of code does is bad practice.
 
 ```php
 /**
@@ -32,11 +73,13 @@ Look, I get it, properly commenting your code isn't always fun, but when it come
 
 But I don't expect anyone to take my opinion at face value. While I don't agree with the conclusion the "no comment" camp has come to, I'll be the first to admit that the issues they've highlighted are worth discussing.
 
-### Point 1 - Comment Clutter
+### Point 1: Comment Clutter
 
-### Point 2 - Stale Comments
+One person's clutter is another person's clarity. Dismissing the value of comments because they clutter up the code is an entirely subjective –and selfish –assertion that is no different than downplaying the value of graphical user interfaces because you personally prefer to use the command line.
 
-### Point 3 - Comment Redundancy
+### Point 2: Stale Comments
+
+### Point 3: Comment Redundancy
 
 
 
