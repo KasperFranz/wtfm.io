@@ -6,13 +6,13 @@ While there are countless tools that extract a significant amount of value from 
 
 ## The How
 
-There's a common misconception that explaining _how _piece of code works is the same as explain _what _a piece of code does. While they are similar in nature, the _how_ is a much more nuanced method of documentation.
+There's a common misconception that explaining _how \_piece of code works is the same as explain \_what \_a piece of code does. While they are similar in nature, the \_how_ is a much more nuanced method of documentation.
 
 ```go
 // Buffered returns a reader of the data remaining in the Decoder's
 // buffer. The reader is valid until the next call to Decode.
 func (dec *Decoder) Buffered() io.Reader {
-	return bytes.NewReader(dec.buf[dec.scanp:])
+    return bytes.NewReader(dec.buf[dec.scanp:])
 }
 ```
 
@@ -79,7 +79,11 @@ One person's clutter is another person's clarity. Dismissing the value of commen
 
 ### Point 2: Stale Comments
 
+If someone told you that they prefer not to write unit tests because they take effort to keep up to date, how would you respond?
+
 ### Point 3: Comment Redundancy
+
+Clear code is subjective. Comments are not.
 
 
 
