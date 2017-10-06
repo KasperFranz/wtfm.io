@@ -4,8 +4,6 @@ Raise your hand if you've ever read a README file. Now, keep that hand raised if
 
 After code comments, the README file is one of the most ubiquitous forms of documentation found in software development today. While not _every_ source code repository has a README, it's a good bet that every _successful_ one does. That's because the README file, as the name compels, is often the first thing a developer reads when working with a new library. Going back to our literature metaphor, if code comments are the gloss, then the README file is the summary; if you can't concisely explain the who, what, where, when, and why of your codebase, then the reader is likely to pick a competitor that can.
 
-## TL;DR
-
 ## Anatomy of a README File
 
 While the README file is the _de facto_ standard for relaying basic information about a software library, its actual format can vary wildly from project to project; the requirements and features of a package can strongly influence the content of a README file. The GNU Coding Standards, for example, explicitly requires a README file containing some basic information about what the package does and how it works[^1], however other standards — such as the Mozilla Coding Standards — have no such requirement. That said, many high quality README files share a number of the same sections and components with one another:
