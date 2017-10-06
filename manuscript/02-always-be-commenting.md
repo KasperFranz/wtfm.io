@@ -53,7 +53,7 @@ _Source: Ruby on Rails \(_[_https://github.com/rails/rails_](https://github.com/
 
 Generally speaking, documenting what every line of code does is bad practice, but there are some cases when the most efficient or streamlined way to write a piece of code isn't always the most intuitive. This is the perfect use case for _what_ comments. Not every method or class can have an intuitive name. Whether the functionality itself is too complex, or there simply isn't a way to come up with a succinct name, it is sometimes necessary to use a simple method name and preface it with a short description of what that method does.
 
-A great example of this can be found in the source code for the Laravel PHP framework. The `after()` method take a string, and returns everything after a given search value. Unfortunately, because of the highly specific nature of the method itself, a method name like `returnEverythingAfter()` adds unnecessary verbosity to a codebase without exactly providing a more clear indication about what the method does. 
+A great example of this can be found in the source code for the Laravel PHP framework. The `after()` method take a string, and returns everything after a given search value. Unfortunately, because of the highly specific nature of the method itself, a method name like `returnEverythingAfter()` adds unnecessary verbosity to a codebase without exactly providing a more clear indication about what the method does.
 
 ```php
 /**
@@ -83,7 +83,7 @@ But I don't expect anyone to take my opinion at face value. While I don't agree 
 
 ### Point 1: Comment Clutter
 
-One person's clutter is another person's clarity. Dismissing the value of comments because they clutter up the code is an entirely subjective –and selfish –assertion that is no different than downplaying the value of graphical user interfaces because you personally prefer to use the command line.
+One person's clutter is another person's clarity. Dismissing the value of comments because they clutter up the code is an entirely subjective –and selfish –assertion that is no different than downplaying the value of graphical user interfaces because you personally prefer to use the command line. While viewing comments as a roadblock towards reading a block of code is understandable, there are countless of plugins for nearly every editor that can be used to fold or hide comments without removing them entirely. This allows you to easily parse code while also leaving information that other developers may find valuable.
 
 ### Point 2: Stale Comments
 
