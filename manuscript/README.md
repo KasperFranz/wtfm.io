@@ -1,21 +1,5 @@
 # Introduction
 
-> “Good Code Is Subjective, Documentation Is Not”
->
-> Writing technical documentation is like going to the dentist; you know you’re supposed to do it, but you don’t really want to. The problem with writing documentation is that it takes time, which pulls away from the job of writing code. Unfortunately, this attitude bleeds into every corner of an organization, reinforcing phrases like “good code doesn’t need documentation” and ultimately resulting in an unmaintainable legacy codebase.
->
-> This section will dispel the “code as documentation” myth, and make a business case for prioritizing technical documentation within the product development lifecycle.
->
-> Specific points to be addressed:
->
-> * Clear and understandable documentation reduces developer onboarding time, which in turn builds a more informed, more productive organization
-> * Documentation is a professional courtesy for the next developer who has to work with your code
-> * Documentation prevents “knowledge silos” - a situation where specific areas of a codebase are only maintained and understood by one engineer
->
-> As an aside, this is a great anecdote about how poor documentation can have dire consequences - [https://www.reddit.com/r/talesfromtechsupport/comments/5u2yra/the\_time\_i\_killed\_an\_entire\_company/](https://www.reddit.com/r/talesfromtechsupport/comments/5u2yra/the_time_i_killed_an_entire_company/)
->
-> TODO: get permission to quote ^
-
 Good code is subjective. Documentation is not.
 
 Let's face it, writing technical documentation is like going to the dentist; you know you’re supposed to do it, but you _really_ don’t want to. The problem with writing documentation is that it takes time, which pulls away from the job of writing _code_. Unfortunately, this attitude bleeds into every corner of an organization, reinforcing phrases like “good code doesn’t need documentation” and ultimately resulting in an unmaintainable legacy codebase.
@@ -63,11 +47,13 @@ In addition to the basic outline above, each individual chapter will include the
 
 > Too long; didn't read.
 
-If you're the type of reader that prefers to skim a book first, then this subsection is just for you. It will summarize the information contained within the larger chapter without all the examples, prose, and history.
+If you're the type of reader that prefers to skim a book, and then deep dive into relevant chapters, then this subsection is for you. It will summarize the information contained within the larger chapter without all the examples, prose, and history.
 
 ### Further Reading
 
+Despite my experience and interest in the topic of writing documentation, so much of what I know has been learned from others. While I don't agree with every stance taken, I think it is important to know how my peers are solving the same problems I have, so every chapter will include a section with recommendations for additional resources on the subject.
+
 ### Questions & Exercises
 
-
+Some people learn better by doing, rather than through study. With this in mind, the end of every chapter will include a set of questions and exercises to not only practice what has been covered, but also give you an opportunity to establish your own habits.
 
