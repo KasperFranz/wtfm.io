@@ -1,6 +1,6 @@
 # Always Be Commenting
 
-As developers, we like to think of code as a recipe. All the steps are written out, so understanding code is as simple as reading those steps. But that’s not the way it really works, is it? Programming is an art form, and programmers each have their own unique style and thought process, so it is important to remember that what is clear and intuitive to one may be disorganized and confusing to another.
+As developers, we like to think of source code as a recipe. All the steps are written out, so understanding code is as simple as reading those steps. But that’s not the way it really works, is it? Programming is an art form, and programmers each have their own unique style and thought process, so it is important to remember that what is clear and intuitive to one may be disorganized and confusing to another.
 
 While there are countless tools that extract a significant amount of value from code comments \(see [Part IV: Tools of the Trade](//13-tools-of-the-trade.md)\), the primary purpose of code comments is to explain _how_ a particular piece of code works, _why_ it was written that way, and – in some cases – _what_ it does.
 
@@ -79,7 +79,7 @@ One person's clutter is another person's clarity. Dismissing the value of commen
 
 ### Point 2: Stale Comments
 
-If someone told you that they prefer not to write unit tests because they take effort to keep up to date, how would you respond? Keeping code comments up to date is a responsibility no different than keeping unit tests up to date. Bemoaning the value of comments because they get stale indicates a systemic problem at the organization level, not in the comments themselves. Like any best practice, it requires discipline to extract value out of it, because without discipline all you are doing is adding complexity without order. 
+If someone told you that they prefer not to write unit tests because they take effort to keep up to date, how would you respond? Keeping code comments up to date is a responsibility no different than keeping unit tests up to date. Bemoaning the value of comments because they get stale indicates a systemic problem at the organization level, not in the comments themselves. Like any best practice, it requires discipline to extract value out of it, because without discipline all you are doing is adding complexity without order.
 
 ### Point 3: Comment Redundancy
 
