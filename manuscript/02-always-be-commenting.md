@@ -8,7 +8,7 @@ While there are countless tools that extract a significant amount of value from 
 
 ## The How
 
-There's a common misconception that explaining _how_ a piece of code works is the same as explaining _what_ it does. While they are similar in nature, the _how_ is a much more nuanced method of documentation.
+There's a common misconception with code comments that explaining _how_ a piece of code works is the same as explaining _what_ it does. While they are similar in nature, the _how_ is a much more nuanced method of documentation.
 
 ```go
 // Buffered returns a reader of the data remaining in the Decoder's
