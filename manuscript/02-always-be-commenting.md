@@ -51,7 +51,9 @@ _Source: Ruby on Rails \(_[_https://github.com/rails/rails_](https://github.com/
 
 ## The What
 
-Generally speaking, documenting what every line of code does is bad practice, but there are some cases when the most efficient or streamlined way to write a piece of code isn't always the most intuitive.
+Generally speaking, documenting what every line of code does is bad practice, but there are some cases when the most efficient or streamlined way to write a piece of code isn't always the most intuitive. This is the perfect use case for _what_ comments. Not every method or class can have an intuitive name. Whether the functionality itself is too complex, or there simply isn't a way to come up with a succinct name, it is sometimes necessary to use a simple method name and preface it with a short description of what that method does.
+
+A great example of this can be found in the source code for the Laravel PHP framework. The `after()` method take a string, and returns everything after a given search value. Unfortunately, because of the highly specific nature of the method itself, a method name like `returnEverythingAfter()` adds unnecessary verbosity to a codebase without exactly providing a more clear indication about what the method does. 
 
 ```php
 /**
@@ -68,6 +70,8 @@ public static function after($subject, $search)
 ```
 
 _Example: Laravel \(_[_https://github.com/laravel/framework_](https://github.com/laravel/framework)_\)_
+
+While many developers would encourage simply looking directly at the function code to understand what it does, as you can see above it isn't the most intuitive line of code in the world. By adding a simple comment before the function declaration, identifying what the method does becomes immediately clear without having to walk through the code.
 
 ## The Code Comment Controversy
 
