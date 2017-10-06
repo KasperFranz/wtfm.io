@@ -2,11 +2,13 @@
 
 As developers, we like to think of source code as a recipe. All the steps are written out, so understanding code is as simple as reading those steps. But that’s not the way it really works, is it? Programming is an art form, and programmers each have their own unique style and thought process, so it is important to remember that what is clear and intuitive to one may be disorganized and confusing to another.
 
+Rather than treating code like a recipe, we should instead treat it like literature. The code itself is prose, written for the computer to read. While we, as developers, can understand the language of the computer, we sometimes need a little help understanding it. This is where the gloss – or comments – provide value. Like annotations, the intended purpose of code comments isn't to summarize the code itself, but to provide clarity about the thought process _behind_ the code.
+
 ## A Brief History of Code Comments
 
 ## Commenting Is as Commenting Does
 
-While there are countless tools that extract a significant amount of value from code comments \(see [Part IV: Tools of the Trade](//13-tools-of-the-trade.md)\), the primary purpose of code comments is to explain _how_ a particular piece of code works, _why_ it was written that way, and – in some cases – _what_ it does.
+A good rule of thumb for code comments is that they shouldn't be necessary to get a good idea of what a piece of code does. But while code design is important for reducing the onboarding time for developers to a new codebase, they aren't without merit. As we'll see in future chapters, while there are countless tools that extract a significant amount of value from code comments \(see [Part IV: Tools of the Trade](//13-tools-of-the-trade.md)\), the primary purpose of code comments is to explain _how_ a particular piece of code works, _why_ it was written that way, and – in some cases – _what_ it does.
 
 ### The How
 
