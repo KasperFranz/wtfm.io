@@ -2,9 +2,11 @@
 
 As developers, we like to think of source code as a recipe. All the steps are written out, so understanding code is as simple as reading those steps. But that’s not the way it really works, is it? Programming is an art form, and programmers each have their own unique style and thought process, so it is important to remember that what is clear and intuitive to one may be disorganized and confusing to another.
 
+## Comment Is as Comment Does
+
 While there are countless tools that extract a significant amount of value from code comments \(see [Part IV: Tools of the Trade](//13-tools-of-the-trade.md)\), the primary purpose of code comments is to explain _how_ a particular piece of code works, _why_ it was written that way, and – in some cases – _what_ it does.
 
-## The How
+### The How
 
 When it comes to commenting code, there's a common misconception that explaining _how_ a piece of code works is the same as explaining _what_ it does. While they are similar in nature, the _how_ is a much more nuanced method of documentation. While the _what_ focuses only on the intended function of a method, the _how_ details its side-effects, caveats, and gotchas. This helps prevent information that can be lost through software design patterns that obfuscate functionality.
 
@@ -22,7 +24,7 @@ _Source: Go \(_[_https://github.com/golang/go_](https://github.com/golang/go)_\)
 
 While the _what_ of this method is simply `Buffered returns a reader of the data remaining in the Decoder's buffer,`  the _how_ is established in the next part by detailing how long the buffered reader is valid: `The reader is valid until the next call to Decode.`
 
-## The Why
+### The Why
 
 ```ruby
 module ActiveRecord
@@ -49,7 +51,7 @@ end
 
 _Source: Ruby on Rails \(_[_https://github.com/rails/rails_](https://github.com/rails/rails)_\)_
 
-## The What
+### The What
 
 Generally speaking, documenting what every line of code does is bad practice, but there are some cases when the most efficient or streamlined way to write a piece of code isn't always the most intuitive. This is the perfect use case for _what_ comments. Not every method or class can have an intuitive name. Whether the functionality itself is too complex, or there simply isn't a way to come up with a succinct name, it is sometimes necessary to use a simple method name and preface it with a short description of what that method does.
 
