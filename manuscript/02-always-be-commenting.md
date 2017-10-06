@@ -79,7 +79,7 @@ One person's clutter is another person's clarity. Dismissing the value of commen
 
 ### Point 2: Stale Comments
 
-If someone told you that they prefer not to write unit tests because they take effort to keep up to date, how would you respond?
+If someone told you that they prefer not to write unit tests because they take effort to keep up to date, how would you respond? Keeping code comments up to date is a responsibility no different than keeping unit tests up to date. Bemoaning the value of comments because they get stale indicates a systemic problem at the organization level, not in the comments themselves. Like any best practice, it requires discipline to extract value out of it, because without discipline all you are doing is adding complexity without order. 
 
 ### Point 3: Comment Redundancy
 
