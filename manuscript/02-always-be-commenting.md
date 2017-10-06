@@ -6,7 +6,9 @@ While there are countless tools that extract a significant amount of value from 
 
 ## The How
 
-There's a common misconception with code comments that explaining _how_ a piece of code works is the same as explaining _what_ it does. While they are similar in nature, the _how_ is a much more nuanced method of documentation.
+When it comes to commenting code, there's a common misconception that explaining _how_ a piece of code works is the same as explaining _what_ it does. While they are similar in nature, the _how_ is a much more nuanced method of documentation. While the _what_ focuses only on the intended function of a method, the _how_ details its side-effects, caveats, and gotchas. This helps prevent information that can be lost through software design patterns that obfuscate functionality.
+
+Take, for example, the following method found within the source code of the Go programming language:
 
 ```go
 // Buffered returns a reader of the data remaining in the Decoder's
@@ -17,6 +19,8 @@ func (dec *Decoder) Buffered() io.Reader {
 ```
 
 _Source: Go \(_[_https://github.com/golang/go_](https://github.com/golang/go)_\)_
+
+While the _what_ of this method is simply `Buffered returns a reader of the data remaining in the Decoder's buffer,`  the _how_ is established in the next part by detailing how long the buffered reader is valid: `The reader is valid until the next call to Decode.`
 
 ## The Why
 
