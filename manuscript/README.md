@@ -55,5 +55,5 @@ Despite my experience and interest in the topic of writing documentation, so muc
 
 ### Questions & Exercises
 
-Some people learn better by doing, rather than through study. With this in mind, the end of every chapter will include a set of questions and exercises to not only practice what has been covered, but also give you an opportunity to establish your own habits.
+Some people learn better by doing, rather than through study. With this in mind, the end of every chapter will include a set of questions and exercises to not only help you practice what has been covered, but also give you an opportunity to establish your own documentation habits. Understanding where your strengths are will help weave documentation into your development process, rather than letting it become a chore you would rather put off until later.
 
