@@ -4,6 +4,8 @@ As developers, we like to think of code as a recipe. All the steps are written o
 
 While there are countless tools that extract a significant amount of value from code comments \(see [Part IV: Tools of the Trade](//13-tools-of-the-trade.md)\), the primary purpose of code comments is to explain _how_ a particular piece of code works, _why_ it was written that way, and – in some cases – _what_ it does.
 
+## TL;DR
+
 ## The How
 
 There's a common misconception that explaining _how_ a piece of code works is the same as explaining _what_ it does. While they are similar in nature, the _how_ is a much more nuanced method of documentation.
@@ -84,4 +86,12 @@ If someone told you that they prefer not to write unit tests because they take e
 ### Point 3: Comment Redundancy
 
 Clear code is subjective. Comments are not.
+
+## Conclusion
+
+## Further Reading
+
+## Questions & Exercises
+
+
 
