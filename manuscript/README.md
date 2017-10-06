@@ -39,21 +39,7 @@ Given the right approach, documentation can be so much more than just a brain du
 
 While technical documentation is about educating stakeholders on the proper use of a feature set, there are a ton of tools that can make both writing and reading documentation easier. This section details tools \(and tool categories\) for automatically generating documentation, hosting well-designed and searchable documentation, and even touches upon the – surprisingly cool – world of API documentation languages.
 
-## Chapter Extras
-
-In addition to the basic outline above, each individual chapter will include the following subsections:
-
-### TL;DR
-
-> Too long; didn't read.
-
-If you're the type of reader that prefers to skim a book, and then deep dive into relevant chapters, then this subsection is for you. It will summarize the information contained within the larger chapter without all the examples, prose, and history.
-
-### Further Reading
-
-Despite my experience and interest in the topic of writing documentation, so much of what I know has been learned from others. While I don't agree with every stance taken, I think it is important to know how my peers are solving the same problems I have, so every chapter will include a section with recommendations for additional resources on the subject.
-
-### Questions & Exercises
+## Questions & Exercises
 
 Some people learn better by doing, rather than through study. With this in mind, the end of every chapter will include a set of questions and exercises to not only help you practice what has been covered, but also give you an opportunity to establish your own documentation habits. Understanding where your strengths are will help weave documentation into your development process, rather than letting it become a chore you would rather put off until later.
 
