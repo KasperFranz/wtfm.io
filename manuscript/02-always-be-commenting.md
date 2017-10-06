@@ -83,7 +83,7 @@ If someone told you that they prefer not to write unit tests because they take e
 
 ### Point 3: Comment Redundancy
 
-Clear code is subjective. Comments are not.
+Not all code is created equal, because not all developers are created equal. We all have different experiences and habits that guide us to slightly different ways to solve the same problems. This difference in thought processes is the primary benefit of code comments. While it may seem redundant to explain your code when "it's already right there," this information could be incredibly valuable to new developers or even experienced developers who are unfamiliar with the language or framework you are using.
 
 ## Conclusion
 
