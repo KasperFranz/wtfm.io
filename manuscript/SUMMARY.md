@@ -10,7 +10,7 @@
   * [Keep It Simple, Stupid](06-keep-it-simple-stupid.md)
   * [Quality Over Quantity](/07-quality-over-quantity.md)
   * [TL;DR](/08-tldr.md)
-* [Part III: T o Documentation and Beyond](/09-make-documentation-great-again.md)
+* [Part III: Beyond Documentation](/09-make-documentation-great-again.md)
   * [README Driven Development](/10-readme-driven-development.md)
   * [Test Driven Documentation](/11-test-driven-documentation.md)
   * [Open Source Documentation](/12-open-source-documentation.md)

@@ -31,7 +31,7 @@ The overarching theme of this section will address what methods of technical doc
 
 When I was in the 9th grade, I had an English teacher who taught me to always assume my reader is lazy, stupid, and mean. In other words, don’t use ten words when five will do, don’t use a big word when a small one still gets the point across, and above all else, avoid ambiguity. That piece of advice is particularly useful when dealing with technical writing, as it is painfully easy to confuse even the most advanced reader. This section focuses on how to effectively apply those three reader traits to technical documentation.
 
-### Make Documentation Great Again
+### Beyond Documentation
 
 Given the right approach, documentation can be so much more than just a brain dump of words and examples. This section covers different ways in which documentation can be incorporated into the product development lifecycle and how it can be used to improve the quality and reliability of the codebase.
 
