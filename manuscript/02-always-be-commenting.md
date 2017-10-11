@@ -2,7 +2,7 @@
 
 As developers, we like to think of source code as a recipe. All the steps are written out, so understanding code is as simple as reading those steps. But that’s not the way it really works, is it? Programming is an art form, and programmers each have their own unique style and thought process, so it is important to remember that what is clear and intuitive to one may be disorganized and confusing to another.
 
-Rather than treating code like a recipe, we should instead treat it like literature. The code itself is prose, written for the computer to read. While we, as developers, can understand the language of the computer, we sometimes need a little help understanding it. This is where the gloss – or comments – provide value. Like annotations, the intended purpose of code comments isn't to summarize the code itself, but to provide clarity about the thought process _behind_ the code.
+Rather than treating code like a recipe, we should instead treat it like literature. The code itself is prose, written for the computer to read. While we as developers can understand the language of the computer, we sometimes need a little help understanding it. This is where the gloss – or comments – provide value. Like annotations, the intended purpose of code comments isn't to summarize the code itself, but to provide clarity about the thought process _behind_ the code.
 
 ## A Brief History of Code Comments
 
