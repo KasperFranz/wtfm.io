@@ -5,7 +5,7 @@
   * [\# Always Be Commenting](02-always-be-commenting.md)
   * [Write a README](03-write-a-readme.md)
   * [Log That Change](log-that-change.md)
-  * [Avoiding Commitment Issues](avoiding-commitment-issues.md)
+  * [Having Commitment Issues?](avoiding-commitment-issues.md)
   * [When In Doubt, Branch Out](04-when-in-doubt-branch-out.md)
 * [Part II: Writing Not-Bad Documentation](05-writing-not-bad-documentation.md)
   * [Keep It Simple, Stupid](06-keep-it-simple-stupid.md)
