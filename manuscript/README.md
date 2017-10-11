@@ -4,6 +4,16 @@ Good code is subjective. Documentation is not.
 
 Let's face it, writing technical documentation is like going to the dentist; you know you’re supposed to do it, but you _really_ don’t want to. The problem with writing documentation is that it takes time, which pulls away from the job of writing _code_. Unfortunately, this attitude bleeds into every corner of an organization, reinforcing phrases like “good code doesn’t need documentation” and ultimately resulting in an unmaintainable legacy codebase.
 
+This book hopes to change that.
+
+As much as it is a creative endeavor, software development is also the act of communication. As programmers, we are taught early on that code is the language of the computer. By writing down brackets and algorithms, conditionals and objects, we are opening a dialog with the computer itself. With these languages, we can accomplish anything. Our words become the foundation for self-driving cars, virtual worlds, and someday even life itself.
+
+But... these words aren't meant for us. They're meant for the machines.
+
+Where we use code to communicate with the computer, it is documentation that we use to communicate with our peers. Like the Rosetta Stone, documentation is the link between the who, what, where, when, and why of the code, and the code itself. I think, as engineers, we have a tendency to devalue documentation because we don't feel qualified as writers; but, again like the Rosetta Stone, documentation isn't about _writing_. It's about _communication._
+
+And, despite the title of this book, _Write the F!@\#$%^ Manual_ isn't about writing. It's about learning how to explain our code in a way that _everyone_ can understand it.
+
 ## What Is Covered
 
 The topics covered in this book range from the benefits of documentation all the way to writing and publishing it:
@@ -20,6 +30,8 @@ This book is for managers, professionals, and engineers who understand the impor
 Much like unit testing, writing high-quality documentation takes time, but has a difficult-to-measure return on investment. _Write the F!@\#$%^ Manual_ provides the tools and techniques necessary to write and encourage quality technical documentation for any size project, within any size organization.
 
 ## Basic Structure
+
+The information in this book is organized into short chapters that each focus on a very specific topic. The subject of documentation is as deep as it is wide, so not every chapter will feel relevant to you and your needs. That said, while they have all been organized in a way that makes sense to me personally, you should feel free to read them in whatever order you wish.
 
 The chapters of this book are organized into four parts:
 
