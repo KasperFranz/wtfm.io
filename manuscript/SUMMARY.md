@@ -14,7 +14,7 @@
 * [Part III: Beyond Documentation](/09-make-documentation-great-again.md)
   * [README Driven Development](/10-readme-driven-development.md)
   * [Test Driven Documentation](/11-test-driven-documentation.md)
-  * [Open Source Documentation](/12-open-source-documentation.md)
+  * [A Case for Open Sourcing Documentation](/12-open-source-documentation.md)
 * [Part IV: Tools of the Trade](/13-tools-of-the-trade.md)
   * [API Documentation Specifications](/14-api-documentation-specifications.md)
   * [Generators](/15-generators.md)
