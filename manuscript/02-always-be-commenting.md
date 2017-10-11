@@ -1,4 +1,4 @@
-# Always Be Commenting
+# \# Always Be Commenting
 
 As developers, we like to think of source code as a recipe. All the steps are written out, so understanding code is as simple as reading those steps. But that’s not the way it really works, is it? Programming is an art form, and programmers each have their own unique style and thought process, so it is important to remember that what is clear and intuitive to one may be disorganized and confusing to another.
 

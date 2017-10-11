@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Part I: What Documentation Is](01-what-documentation-is.md)
-  * [Always Be Commenting](02-always-be-commenting.md)
+  * [\# Always Be Commenting](02-always-be-commenting.md)
   * [Write a README](03-write-a-readme.md)
   * [Log That Change](log-that-change.md)
   * [Avoiding Commitment Issues](avoiding-commitment-issues.md)
@@ -17,6 +17,7 @@
   * [A Case for Open Sourcing Documentation](/12-open-source-documentation.md)
 * [Part IV: Tools of the Trade](/13-tools-of-the-trade.md)
   * [API Documentation Specifications](/14-api-documentation-specifications.md)
+  * Linters, Sniffers, and Validators
   * [Generators](/15-generators.md)
   * [Design and Hosting](/16-design-and-hosting.md)
 
