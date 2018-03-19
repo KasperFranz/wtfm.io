@@ -310,7 +310,7 @@ A good example of a README-gone-astray is the README file for HTTPie[^4], a popu
 
 ## Conclusion
 
-Write a README, because you can sure as hell expect your users to actually _READ IT_. Outlining how to get started with a new project is an important onboarding step for new users, and a great refresher course for returning users. The README is the perfect place to communicate—at minimum—the basic information required to use a new library or framework, and while not every project warrants dedicated documentation, they should all have a thoughtful, usable README.
+Write a README, because you can sure as hell expect your users to actually **READ IT**. Outlining how to get started with a new project is an important onboarding step for new users, and a great refresher course for returning users. The README is the perfect place to communicate—at minimum—the basic information required to use a new library or framework, and while not every project warrants dedicated documentation, they should all have a thoughtful, usable README.
 
 ## Questions & Exercises
 
