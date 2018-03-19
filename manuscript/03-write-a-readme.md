@@ -6,7 +6,7 @@ After code comments, the README file is one of the most ubiquitous forms of docu
 
 ## Anatomy of a README File
 
-While the README file is the _de facto_ standard for relaying basic information about a software library, its actual format can vary wildly from project to project; the requirements and features of a package can strongly influence the content of a README file. The GNU Coding Standards, for example, explicitly requires a README file containing some basic information about what the package does and how it works[^1], however other standards — such as the Mozilla Coding Standards — have no such requirement. That said, many high quality README files share a number of the same sections and components with one another:
+While the README file is the _de facto_ standard for relaying basic information about a software library, its actual format can vary wildly from project to project; the requirements and features of a package can strongly influence the content of a README file. The GNU Coding Standards, for example, explicitly requires a README file containing some basic information about what the package does and how it works[^1], however other standards—such as the Mozilla Coding Standards—have no such requirement. That said, many high quality README files share a number of the same sections and components with one another:
 
 ### Description
 
@@ -75,7 +75,7 @@ _Example: API Blueprint \(_[_https://github.com/apiaryio/api-blueprint_](https:/
 
 ### Configuration
 
-Beyond the initial "Getting Started" steps, many projects require some basic configuration — or they offer more advanced configuration methods beyond the initial setup. While it isn't necessary to go into excruciating detail in outlining configuration options within your README, identifying how and where to configure your project can help readers feel more confident in your package's ability to meet their personal needs.
+Beyond the initial "Getting Started" steps, many projects require some basic configuration—or they offer more advanced configuration methods beyond the initial setup. While it isn't necessary to go into excruciating detail in outlining configuration options within your README, identifying how and where to configure your project can help readers feel more confident in your package's ability to meet their personal needs.
 
 > #### Configuring CarrierWave
 >
@@ -192,7 +192,7 @@ The design and readability of a README now have just as much of an effect on the
 
 We've come a long way since `README.txt`.
 
-While the README file's purpose hasn't changed much in the past four decades, its standard format has undergone a dramatic transition over the last ten years thanks in large part to GitHub's decision to render README files according to their file extension[^2]. Originally launched in 2008 with `.markdown`, `.textile`, and `.rdoc` support, GitHub's README rendering has come a long way since then, adding another six markups and countless post-processing features like emoji suppport, caching, and more. While GitHub's markup renderer supports a number of different languages, the most popular one — and my personal favorite — is Markdown.
+While the README file's purpose hasn't changed much in the past four decades, its standard format has undergone a dramatic transition over the last ten years thanks in large part to GitHub's decision to render README files according to their file extension[^2]. Originally launched in 2008 with `.markdown`, `.textile`, and `.rdoc` support, GitHub's README rendering has come a long way since then, adding another six markups and countless post-processing features like emoji suppport, caching, and more. While GitHub's markup renderer supports a number of different languages, the most popular one—and my personal favorite—is Markdown.
 
 To quote the official Markdown documentation, "Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML \(or HTML\)."[^3] To provide an example, let's take a look at how Markdown can take a totally made up snippet of plain-text documentation, and give it some flair:
 
@@ -300,17 +300,17 @@ Obviously, code highlighting won't improve the _content_ of a README file, but w
 
 The true beauty of GitHub's markup renderer isn't the number of languages it supports; it's the post-processing that it performs. While the majority of the actions GitHub's render takes to process a markup file are designed to reduce load times 🕒 and increase security 🔒, one particular feature that is getting increasing use is the emoji parser, and let's face it... emojis are here to stay. They're so damn popular that, as I write this, there is a _movie_ 🎥 about Emojis playing in the theater down the street. The problem with emojis, however, is that outside of a smartphone 📱 they are a huge pain in the ass to type unless you are using an application that natively support emoji shortcuts.
 
-With GitHub flavored markup, adding emojis to a README is nearly as simple as adding an emoji to a Tweet — or whatever the kids are using these days 🚀. Whenever GitHub's markup renderer encounters something that looks like `:emojiname:`, it attempts to look up the indicated emoji and, if found, renders it instead of the tag ⚡. This allows you to add relevant \(and hopefully appropriate\) emojis within a README file in plain text, without having to muck around on Emojipedia 📖.
+With GitHub flavored markup, adding emojis to a README is nearly as simple as adding an emoji to a Tweet—or whatever the kids are using these days 🚀. Whenever GitHub's markup renderer encounters something that looks like `:emojiname:`, it attempts to look up the indicated emoji and, if found, renders it instead of the tag ⚡. This allows you to add relevant \(and hopefully appropriate\) emojis within a README file in plain text, without having to muck around on Emojipedia 📖.
 
 #### Keep It Simple, Stupid
 
 There's a fine line between _a lot of_ information, and _way too much_ information. While there's no rule dictating just how much information is too much in a README file, it's important to remember our "README = summary" analogy from the literary metaphor above. The size and complexity of a project will strongly dictate the length of a README file, just like the size and complexity of a book will determine how detailed the summary is, but if you're not careful you can move from writing a summary into writing CliffsNotes without even realizing it.
 
-A good example of a README-gone-astray is the README file for HTTPie[^4], a popular command line tool for making HTTP requests. HTTPie's README file clocks in at just over 6000 words — which is about 2000 words more than this entire chapter. With a little bit of digging, you can see that HTTPie's README file is just a one-page version of their official documentation, with some standard badges added. While having separate documentation for a project this size is an excellent idea, duplicating it into the README file can make it more difficult for users to find the information they need, and lessens the impact of the information that actually _belongs_ in the README. In later chapters, we will discuss when and how to create and manage external documentation to address this exact problem.
+A good example of a README-gone-astray is the README file for HTTPie[^4], a popular command line tool for making HTTP requests. HTTPie's README file clocks in at just over 6000 words—which is about 2000 words more than this entire chapter. With a little bit of digging, you can see that HTTPie's README file is just a one-page version of their official documentation, with some standard badges added. While having separate documentation for a project this size is an excellent idea, duplicating it into the README file can make it more difficult for users to find the information they need, and lessens the impact of the information that actually _belongs_ in the README. In later chapters, we will discuss when and how to create and manage external documentation to address this exact problem.
 
 ## Conclusion
 
-Write a README, because you can sure as hell expect your users to actually _READ IT_. Outlining how to get started with a new project is an important onboarding step for new users, and a great refresher course for returning users. The README is the perfect place to communicate — at minimum — the basic information required to use a new library or framework, and while not every project warrants dedicated documentation, they should all have a thoughtful, usable README.
+Write a README, because you can sure as hell expect your users to actually _READ IT_. Outlining how to get started with a new project is an important onboarding step for new users, and a great refresher course for returning users. The README is the perfect place to communicate—at minimum—the basic information required to use a new library or framework, and while not every project warrants dedicated documentation, they should all have a thoughtful, usable README.
 
 ## Questions & Exercises
 
