@@ -25,7 +25,7 @@ The topics covered in this book range from the benefits of documentation all the
 
 ## Who This Book Is For
 
-This book is for managers, professionals, and engineers who understand the importance of documentation, but don’t have the knowledge — or resources — needed to effectively work it into an existing product development lifecycle. In other words, if you write documentation for a living, this book probably doesn't have much to teach you.
+This book is for managers, professionals, and engineers who understand the importance of documentation, but don’t have the knowledge—or resources—needed to effectively work it into an existing product development lifecycle. In other words, if you write documentation for a living, this book probably doesn't have much to teach you.
 
 Much like unit testing, writing high-quality documentation takes time, but has a difficult-to-measure return on investment. _Write the F!@\#$%^ Manual_ provides the tools and techniques necessary to write and encourage quality technical documentation for any size project, within any size organization.
 
