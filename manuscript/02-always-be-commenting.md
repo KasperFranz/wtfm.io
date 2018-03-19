@@ -32,7 +32,7 @@ While the _what_ of this method is simply `Buffered returns a reader of the data
 
 ### The Why
 
-Sometimes, as programmers, we have to do things the "hacky" way—also known as the "wrong" way, in some circumstances. But as codebases evolve and projects grow beyond their original scope, writing software becomes a balancing act between building new features and properly deprecating legacy code.
+Sometimes, as programmers, we have to do things the "hacky" way—also known as the "wrong" way, in some circumstances. But as codebases evolve and projects grow beyond their original scope, writing software becomes a balancing act between building new features and properly deprecating legacy code. Without proper comments, it is nearly impossible to identify the "gotchas" in seemingly inefficient or unintuitive code. To illustrate this, let's look at Ruby on Rails' `ActiveRecord::DefineCallbacks` module:
 
 ```ruby
 module ActiveRecord
@@ -58,6 +58,8 @@ end
 ```
 
 _Source: Ruby on Rails \(_[_https://github.com/rails/rails_](https://github.com/rails/rails)_\)_
+
+
 
 ### The What
 
