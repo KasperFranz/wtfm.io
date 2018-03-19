@@ -79,7 +79,7 @@ public static function after($subject, $search)
 
 _Example: Laravel \(_[_https://github.com/laravel/framework_](https://github.com/laravel/framework)_\)_
 
-While many developers would encourage simply looking directly at the function code to understand what it does, as you can see above it isn't the most intuitive line of code in the world. By adding a simple comment before the function declaration, identifying what the method does becomes immediately clear without having to walk through the code.
+While many developers would encourage simply looking directly at the function code to understand what it does, this isn't always practical. As you can see above, the most efficient code isn't always the most intuitive code. By adding a simple comment before the function declaration, understanding what the method does becomes immediately clear without having to do a line-by-line analysis.
 
 ## The Code Comment Controversy
 
