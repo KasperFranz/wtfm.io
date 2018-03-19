@@ -61,7 +61,7 @@ _Source: Ruby on Rails \(_[_https://github.com/rails/rails_](https://github.com/
 
 Generally speaking, documenting what every line of code does is bad practice, but there are some cases when the most efficient or streamlined way to write a piece of code isn't always the most intuitive. This is the perfect use case for _what_ comments. Not every method or class can have an intuitive name. Whether the functionality itself is too complex, or there simply isn't a way to come up with a succinct name, it is sometimes necessary to use a simple method name and preface it with a short description of what that method does.
 
-A great example of this can be found in the source code for the Laravel PHP framework. The `after()` method take a string, and returns everything after a given search value. Unfortunately, because of the highly specific nature of the method itself, a method name like `returnEverythingAfter()` adds unnecessary verbosity to a codebase without exactly providing a more clear indication about what the method does.
+A great example of this can be found in the source code for the Laravel PHP framework. The `after()` method takes a string, and returns everything after a given search value. Unfortunately, because of the highly specific nature of the method itself, a method name like `returnEverythingAfter()` adds unnecessary verbosity to a codebase without exactly providing an immediately clear indication about what the method does.
 
 ```php
 /**
@@ -99,7 +99,7 @@ If someone told you that they prefer not to write unit tests because they take e
 
 ### Point 3: Comment Redundancy
 
-Not all code is created equal, because not all developers are created equal. We all have different experiences and habits that guide us to slightly different ways to solve the same problems. This difference in thought processes is the primary benefit of code comments. While it may seem redundant to explain your code when "it's already right there," this information could be incredibly valuable to new developers or even experienced developers who are unfamiliar with the language or framework you are using.
+Not all code is created equal, because not all developers are created equal. We all have different experiences and habits that guide us to slightly different ways to solve the same problems. This difference in thought processes is the primary benefit of code comments. While it may seem redundant to explain your code when "it's already right there," this information could be incredibly valuable to new developers, or even experienced developers who are unfamiliar with the language or framework you are using.
 
 ## Conclusion
 
