@@ -6,7 +6,7 @@ Rather than treating code like a recipe, we should instead treat it like literat
 
 ## A Brief History of Code Comments
 
-Believe it or not, code comments used to be handwritten or typed notes that accompanied punch cards. These comment cards—acting in exactly the way you would expect—were ignored when fed into the compiler, but provided context to the code in the same way comments are used today.
+Believe it or not, code comments used to be handwritten or typed notes that accompanied hard-copy coder sheets and punch cards in early decades of the software development industry. These comment cards—acting in exactly the way you would expect—were ignored when fed into the compiler, but provided context to the code in the same way comments are used today.
 
 ## Commenting Is as Commenting Does
 
