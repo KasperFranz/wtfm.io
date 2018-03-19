@@ -268,7 +268,7 @@ Not every software project is text-based in nature. There are countless of graph
 
 _Example: The Fuck \(_[_https://github.com/nvbn/thefuck_](https://github.com/nvbn/thefuck)_\)_
 
-Keep in mind that, just because a project isn't graphical in nature, doesn't mean that its documentation can't benefit from a README file. Many command-line utilities can be more effectively demonstrated using a real-world screenshot than copying and pasting the output of the application.
+Keep in mind that, just because a project isn't graphical in nature, doesn't mean that its documentation can't benefit from screenshots and animations. Many command-line utilities can be more effectively demonstrated using a real-world screenshot than copying and pasting the output of the application.
 
 #### Code Highlighting
 
