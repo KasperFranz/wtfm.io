@@ -2,13 +2,13 @@
 
 As developers, we like to think of source code as a recipe. All the steps are written out, so understanding code is as simple as reading those steps. But that’s not the way it really works, is it? Programming is an art form, and programmers each have their own unique style and thought process, so it is important to remember that what is clear and intuitive to one may be disorganized and confusing to another.
 
-Rather than treating code like a recipe, we should instead treat it like literature. The code itself is prose, written for the computer to read. While we as developers can speak the language of the computer, we sometimes need a little help understanding it. This is where the gloss – or comments – provide value. Like annotations, the intended purpose of code comments isn't to summarize the code itself, but to provide clarity about the thought process _behind_ the code.
+Rather than treating code like a recipe, we should instead treat it like literature. The code itself is prose, written for the computer to read. While we as developers can speak the language of the computer, we sometimes need a little help understanding it. This is where the gloss—or comments—provide value. Like annotations, the intended purpose of code comments isn't to summarize the code itself, but to provide clarity about the thought process _behind_ the code.
 
 ## A Brief History of Code Comments
 
 ## Commenting Is as Commenting Does
 
-A good rule of thumb for code comments is that they shouldn't be necessary to get a good idea of what a piece of code does. But while code design is important for reducing the onboarding time for developers to a new codebase, they aren't without merit. As we'll see in future chapters, while there are countless tools that extract a significant amount of value from code comments \(see [Part IV: Tools of the Trade](//13-tools-of-the-trade.md)\), the primary purpose of code comments is to explain _how_ a particular piece of code works, _why_ it was written that way, and – in some cases – _what_ it does.
+A good rule of thumb for code comments is that they shouldn't be necessary to get a good idea of what a piece of code does. But while code design is important for reducing the onboarding time for developers to a new codebase, they aren't without merit. As we'll see in future chapters, while there are countless tools that extract a significant amount of value from code comments \(see [Part IV: Tools of the Trade](//13-tools-of-the-trade.md)\), the primary purpose of code comments is to explain _how_ a particular piece of code works, _why_ it was written that way, and—in some cases—_what_ it does.
 
 ### The How
 
@@ -83,13 +83,13 @@ While many developers would encourage simply looking directly at the function co
 
 In an industry filled with flame wars like VIM versus Emacs and PHP versus... well... everyone, one of the most surprising hot button issues is whether or not developers should write code comments. To sum it up, the "no comment" camp advocates against writing code comments because they clutter up the code, have a tendency to become outdated, and are redundant – because you can just read the code to find out what it does; to all of which, I say "grow up."
 
-Look, I get it, properly commenting your code isn't always fun, but when it comes down to it those comments aren't for you; they're for the next person – which, let's face it, might actually _be_ you. Despite the cliche of the scruffy, basement-dwelling programmer, software development doesn't happen in a vacuum. It involves a significant amount of collaboration and education to be successful, and even then finding common ground on difficult issues is an exercise in patience, empathy, and compromise.
+Look, I get it, properly commenting your code isn't always fun, but when it comes down to it those comments aren't for you; they're for the next person—who, let's face it, might actually _be_ you. Despite the cliche of the scruffy, basement-dwelling programmer, software development doesn't happen in a vacuum. It involves a significant amount of collaboration and education to be successful, and even then finding common ground on difficult issues is an exercise in patience, empathy, and compromise.
 
 But I don't expect anyone to take my opinion at face value. While I don't agree with the conclusion the "no comment" camp has come to, I'll be the first to admit that the issues they've highlighted are worth discussing.
 
 ### Point 1: Comment Clutter
 
-One person's clutter is another person's clarity. Dismissing the value of comments because they clutter up the code is an entirely subjective –and selfish –assertion that is no different than downplaying the value of graphical user interfaces because you personally prefer to use the command line. While viewing comments as a roadblock towards reading a block of code is understandable, there are countless of plugins for nearly every editor that can be used to fold or hide comments without removing them entirely. This allows you to easily parse code while also leaving information that other developers may find valuable.
+One person's clutter is another person's clarity. Dismissing the value of comments because they clutter up the code is an entirely subjective—and selfish—assertion that is no different than downplaying the value of graphical user interfaces because you personally prefer to use the command line. While viewing comments as a roadblock towards reading a block of code is understandable, there are countless of plugins for nearly every editor that can be used to fold or hide comments without removing them entirely. This allows you to easily parse code while also leaving information that other developers may find valuable.
 
 ### Point 2: Stale Comments
 
