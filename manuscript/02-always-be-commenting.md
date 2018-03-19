@@ -32,7 +32,7 @@ While the _what_ of this method is simply `Buffered returns a reader of the data
 
 ### The Why
 
-
+Sometimes, as programmers, we have to do things the "hacky" way—also known as the "wrong" way, in some circumstances. But as codebases evolve and projects grow beyond their original scope, writing software becomes a balancing act between building new features and properly deprecating legacy code.
 
 ```ruby
 module ActiveRecord
