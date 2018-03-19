@@ -6,6 +6,8 @@ Rather than treating code like a recipe, we should instead treat it like literat
 
 ## A Brief History of Code Comments
 
+Believe it or not, code comments used to be handwritten notes that accompanied punch cards.
+
 ## Commenting Is as Commenting Does
 
 A good rule of thumb for code comments is that they shouldn't be necessary to get a good idea of what a piece of code does. But while code design is important for reducing the onboarding time for developers to a new codebase, they aren't without merit. As we'll see in future chapters, while there are countless tools that extract a significant amount of value from code comments \(see [Part IV: Tools of the Trade](//13-tools-of-the-trade.md)\), the primary purpose of code comments is to explain _how_ a particular piece of code works, _why_ it was written that way, and—in some cases—_what_ it does.

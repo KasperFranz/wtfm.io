@@ -13,7 +13,7 @@
   * [TL;DR](/08-tldr.md)
   * Show and Tell
 * [Part III: Beyond Documentation](/09-make-documentation-great-again.md)
-  * [README Driven Development](/10-readme-driven-development.md)
+  * [Documentation-Driven Development](documentation-driven-development.md)
   * [Test Driven Documentation](/11-test-driven-documentation.md)
   * [A Case for Open Sourcing Documentation](/12-open-source-documentation.md)
 * [Part IV: Tools of the Trade](/13-tools-of-the-trade.md)
