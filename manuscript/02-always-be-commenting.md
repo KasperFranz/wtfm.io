@@ -59,7 +59,7 @@ end
 
 _Source: Ruby on Rails \(_[_https://github.com/rails/rails_](https://github.com/rails/rails)_\)_
 
-
+In a perfect world, the above module wouldn't exist, but as the comments explain, it _has_ to for now. Explaining _why_ a piece of code exists is crucial, especially if the reason isn't immediately obvious. As much as we like to pretend all good software is clear and easy to read, that assertion simply doesn't coincide with the reality of the _business_ of software development. Plans change, goals shift, and good code today couldeasily  become legacy code tomorrow.
 
 ### The What
 
