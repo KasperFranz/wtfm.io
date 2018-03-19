@@ -32,6 +32,8 @@ While the _what_ of this method is simply `Buffered returns a reader of the data
 
 ### The Why
 
+
+
 ```ruby
 module ActiveRecord
   # This module exists because ActiveRecord::AttributeMethods::Dirty needs to
@@ -59,7 +61,7 @@ _Source: Ruby on Rails \(_[_https://github.com/rails/rails_](https://github.com/
 
 ### The What
 
-Generally speaking, documenting what every line of code does is bad practice, but there are some cases when the most efficient or streamlined way to write a piece of code isn't always the most intuitive. This is the perfect use case for _what_ comments. Not every method or class can have an intuitive name. Whether the functionality itself is too complex, or there simply isn't a way to come up with a succinct name, it is sometimes necessary to use a simple method name and preface it with a short description of what that method does.
+Generally speaking, documenting what every line of code does is bad practice. Comments are intended to provide clarity, but when _everything_ needs clarity, _nothing_ is every actually clear. That said, there are some cases where the most efficient or streamlined way to write a piece of code isn't always the most intuitive. This is the perfect use case for _what_ comments. When it comes right down to it, not every method or class can have an intuitive name. Whether the functionality itself is too complex, or there simply isn't a way to come up with a succinct name, it is sometimes necessary to use a simple method name and preface it with a short description of what that method does.
 
 A great example of this can be found in the source code for the Laravel PHP framework. The `after()` method takes a string, and returns everything after a given search value. Unfortunately, because of the highly specific nature of the method itself, a method name like `returnEverythingAfter()` adds unnecessary verbosity to a codebase without exactly providing an immediately clear indication about what the method does.
 
